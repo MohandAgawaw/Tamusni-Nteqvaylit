@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yess"
+    android:orientation="vertical"
+    tools:ignore="LabelFor">
+    <WebView
+        android:id="@+id/Webviewww"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </WebView>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_width="149dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="2dp"
+        app:lottie_rawRes="@raw/user"
+        app:lottie_autoPlay="true"
+        android:elevation="5dp">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+
+            android:gravity="center"
+            android:hint="@string/Prenom"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/MDp"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg"
+
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/MDp"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <worker8.com.github.radiogroupplus.RadioGroupPlus
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/garcon"
+                    tools:ignore="ContentDescription">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mas"
+                    android:textSize="24sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#0A5AFA"
+                    tools:ignore="UnusedAttribute">
+
+                </RadioButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/fille"
+                    tools:ignore="ContentDescription">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Fim"
+                    android:textSize="24sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F60303"
+                    tools:ignore="UnusedAttribute">
+
+                </RadioButton>
+            </LinearLayout>
+        </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+        <Button
+            android:id="@+id/inscrir"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/et_bbg"
+            android:padding="2dp"
+            android:text="@string/inscription"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/pBr1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/SpinKitView.Large.FadingCircle"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/colorAccent"
+        tools:ignore="RedundantNamespace" />
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:gravity="center"
+    android:background="@drawable/dialogbacck">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:text="@string/errsym"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        </TextView>
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:id="@+id/ultxt"
+            android:text="@string/ugur_n_uze_a"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        </TextView>
+        <TextView
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:text="@string/errsym"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:text="@string/muqqel_uqqin_n_uze_a_nwen_ma_ur_tes_im_ara_internet_ad_tes_um_ugur_deg_kra_n_twuriwin_n_usrussu_ya"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </TextView>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnrtr"
+        android:background="#51917E7E"
+        android:text="@string/tu_alin"
+        android:layout_width="200dp"
+        android:layout_height="40dp">
+
+    </Button>
+</LinearLayout>

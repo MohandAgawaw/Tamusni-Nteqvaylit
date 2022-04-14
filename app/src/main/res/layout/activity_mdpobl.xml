@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yess"
+    tools:context=".mdpobl">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/validite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/valid"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Yewweḍ-d yizen-nwen, ur nettweṭṭij ara (ur nettɛeṭṭil ara) ad-awen-d ner awal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tettu-ḍ awal uffir inek (m) ?"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+
+
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Mačči d ugur , aru deg umḍiq-nni amenzu nqema (isem)
+Deg umḍiq nni wis sin Tirwat (email) d acu kan ilaq ad tili tirwat-nni id tesxedem-ḍ i wakken ad nceggeɛ awal uffir ɣur-s"
+                android:textSize="21sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <EditText
+
+            android:id="@+id/isem"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+
+            android:id="@+id/editTex"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/BTN_ar"
+            android:layout_width="154dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/cegge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</RelativeLayout>

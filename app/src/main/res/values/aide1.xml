@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="Presentation">
+        Asebter-a d win yerzan imdannen yebɣan ad aɣ-d-yefken afus n tallelt.
+
+    </string>
+    
+    <string name="Rapel">
+Akken tεelmmem, leqdic-a "Tamusni n teqbaylit" d allal yettwaxdem s ttawilat-nneɣ. Deg yeswi n uzuzer n tussna n teqbaylit i yemdannen ur nesεi ara tagnit i waya, ama deg uɣarbaz neɣ berra i uḥric-a.
+    </string>
+    <string name="Explication">
+D acu ara ibedllen ma nefka-d afud i usenfar-a ?
+Amhaz n leqdic "Tamusni n teqbaylit" tessiskkin-awen-d aṭas n twuriwin ɣef waya ad tawali-m ruḥent-d tiseddarin ddew :
+    </string>
+    <string name="Benifice1">
+1- asnarni n yinzan d yemdannen yettwasnnen.
+
+    </string>
+    <string name="Benifice2">
+
+2- ameslay (ad awen-efk tagnit ad tmeslayem zdaxel-is).
+
+    </string>
+    <string name="Benifice3">
+
+3-asnarni n tqesiḍin xarsum "timucuha".
+
+    </string>
+    <string name="Benifice4">
+
+4-asnerni n twelafin
+
+    </string>
+    <string name="Benifice5">
+
+5- ad nernu ɣer waya amaṭaf n radyu.
+    </string>
+    <string name="Solutions">
+Amek ara aɣ-t-εawenem ?
+S lmendad-nneɣ llant waṭas Amek I Tzemrem iwakken ad aɣ-d-efkem afus n tallelt.
+    </string>
+    #Mode Payement
+    <string name="facon1">
+-Tazmert tamenzut (1) iwakken ad tεawnem ttawil-a deg tama yelha i wid yebɣan ad εawnnen akked wid i qedcen deg-s.
+S lbiε deg tszenzut-nneɣ tiɣawsiwin i izemren ad ken-yawin
+    </string>
+    <string name="facon10">
+-Tazmert tamenzut (1) iwakken ad tεawnem ttawil-a deg tama yelha i wid yebɣan ad εawnnen akked wid i qedcen deg-s.
+S lbiε deg tszenzut-nneɣ tiɣawsiwin i izemren ad ken-yawin
+    </string>
+    <string name="facon11">
+lwelhi :
+    </string>
+    <string name="facon12">
+BOUTIQUE-KABYLE.ORG
+    </string>
+    <string name="facon3">
+ -Tazmert tis snat (2) iwakken ad fkem afus n tallelt i ttawil-nneɣ anmetti d tin akk isahlen,  d azuzer d ussissen n wayen nqeddec deg tawilat-nwen deg uzeṭṭa anemtti n yal yiwen deg-wen.
+    </string>
+    <string name="facon3_1">
+
+
+    </string>
+    <string name="ISMMMTAR">
+
+        Agraw-Naɣ :
+
+    </string>
+    <string name="ISMMMTARlink">
+
+        TARWA NDA LOUNES.
+
+    </string>
+
+</resources>

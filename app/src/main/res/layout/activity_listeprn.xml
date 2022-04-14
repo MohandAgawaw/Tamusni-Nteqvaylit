@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chelint"
+    tools:context=".Listeprn">
+
+    <Switch
+
+        android:id="@+id/switchd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#BAFAF8F8"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Ecεel taḥeggart agi iw-akken ad tili-ḍ tettwaẓṛeḍ"
+        android:textColor="#000000"
+        android:textSize="15sp">
+
+    </Switch>
+    <ScrollView
+        android:layout_below="@id/switchd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#AB000000">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerViewliste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/dzzzz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#97000000">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/enlignepro"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/closed"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_baseline_close_24">
+
+            </Button>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/ltrid"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:elevation="5dp"
+
+
+                app:lottie_autoPlay="true">
+
+            </com.airbnb.lottie.LottieAnimationView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ur_tezmi_e_ara"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/aqla_an_xeddem_akk_ayen_wumi_nezmer_iw_akken_ad_ne_awe_er_ugemu_i_tessaramem"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnrtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/enligneprobtn"
+                android:padding="5dp"
+                android:text="@string/dacu_i_nethagi"
+                android:textColor="#000000">
+
+            </Button>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

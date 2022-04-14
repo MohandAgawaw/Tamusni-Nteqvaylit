@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".simoh"
+    android:background="#DADF9817">
+<ImageView
+    android:layout_marginLeft="10dp"
+
+    android:layout_width="120dp"
+    android:layout_height="100dp"
+    android:id="@+id/imglogo"
+   android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    >
+
+</ImageView>
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/smoh"
+
+        >
+
+    </ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="#D3DBD6CA"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="160dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+</RelativeLayout>

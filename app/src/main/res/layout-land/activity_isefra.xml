@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Isefra"
+    android:background="@drawable/yyes">
+<ImageView
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:id="@+id/imglogo"
+    android:layout_centerVertical="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="80dp"
+    android:layout_marginEnd="80dp"
+    android:layout_marginTop="5dp"
+    tools:ignore="ContentDescription">
+
+</ImageView>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#722D2B47">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/amenzu"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/simuh"
+                    android:textColor="#FFEA00"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/smoh"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginLeft="64dp"
+                    android:background="@drawable/mohand"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck">
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amenzus"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/mtb"
+                    android:textColor="#212121"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/mtb"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginLeft="58dp"
+                    android:background="@drawable/mtb"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo">
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amenzug"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/cix"
+                    android:textColor="#D1C4E9"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/siulhocine"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/olh"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo">
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amenzud"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/hadja"
+                    android:textColor="#FBC02D"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/yam"
+                    android:layout_width="110dp"
+
+                    android:layout_height="100dp"
+                    android:layout_marginStart="88dp"
+                    android:layout_marginLeft="88dp"
+                    android:background="@drawable/haja"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo">
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amenzu11"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/samir"
+                    android:textColor="#CFD8DC"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/anza"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginLeft="76dp"
+                    android:background="@drawable/anzaa"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo">
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amenzu4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/aith"
+                    android:textSize="19sp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/tarwa"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="78dp"
+                    android:layout_marginLeft="78dp"
+                    android:background="@drawable/aith"
+                    android:contentDescription="@string/todo">
+
+                </ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

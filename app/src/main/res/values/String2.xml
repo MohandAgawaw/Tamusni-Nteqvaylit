@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Discription">La civilisation kabyle est la plus   ancienne  civilisation des peuples autochtones  .Son originalité  se  repose sur ses trois piliers ancestrales ,a   savoir la  langue, la terre ,les  traditions et rites .
+A travers cette application inédite accomplie par Tarwa Nda Lounes ,nous mettons entre vos  mains un moyen facile mais aussi efficace pour apprendre et approcher tous ce qui la concerne :langue, histoire, proverbes, dictons , sciences, savoir faire ,  et savoir être de ce peuple.
+Imitant la démarche de « Mouloud Mammeri », notre équipe a privilégié  les documents authentiques, et a parcouru les grottes et les ruines à travers plusieurs Lieux En Kabylie,  cherchant tout témoignage susceptible d’apporter un atout, en guise  de crédibilité.
+NB : Cette application est conçue pour les kabylo phones, une version francophone sera prochainement disponible.  </string>
+
+
+<string name="DiscripctionTQ">
+    Tiɣremt n leqbayel, d tiɣremt tamzikit yugaren akk igduden niḍen.
+    Tṛeṣṣa iẓuran-is ɣef kradet n tgejda: tameslayt,
+    akal d yinsayen.
+S usnes-agi amaynut n Tarwa n Dda Lwennas,
+    ad awen-d-nessers gar yifassen nwen yiwen wallal,
+    akken yeshel i yeqwem, i uselmed d usiweḍ n wayen akk irzan: tameslayt, amezruy, inzan, timusniwin d tεuwwejt n ugdud-agi.
+D tikli d terrayt n dda Lmulud n at-Mεemmeṛ, ara d-nawi; agraw nneɣ yeḥrez akk isemlan ineṣliyen, inuda-d akk ifran d yixeṛban n tmurt Tabaylit. Inuda ɣef yal tanaga izemren ad d-ternu xeṛṣum d azuḥ i tidet n uxeddim-agi.
+Tamawt: Asnes-agi, yemmug i wid issawalen taqbaylit, si-a ar zdat, ad d-yili yiken-is s tṛumit.
+</string>
+    <string name="Taq">Ansuf ɣer usnas-nneɣ. Ma d tirza-inek(m) tamezwarut ttxil ččar urti " Jerred" akken ad tjerdeḍ.
+Ma tesɛiḍ yakan amiḍan, senned ɣef "Qqen" akken ad teqneḍ.</string>
+
+    <string name="ekk">
+        Ma yella ur teqqineḍ ara ɣer Internet akken ad tɛeddiḍ ɣer usnas, tekki (kliki) ɣef “berra n tuqqna”, acu kan kra n tnefrunin ad k-ttwakksent.
+    </string>
+    <string name="aru">
+        Aru awal tebɣiḍ ad d-tessuqleḍ deg wadeg n "Awal". Tira, yewwi-d ad teɣdem, d uqader n usekkil ameqran di tazwara. Si-in akk-in, tekki ɣef "Suqel".
+Tasuqilt, tezmer ad tili si tefṛansist ar teqbaylit, akken daɣen si teqbaylit ɣer tefṛansist.
+         </string>
+    <string name="tekki">
+        Suqel
+    </string>
+
+    <string name="choix">
+        Tekki ɣef ugezdu i tebɣam ad tfernem tekki ɣef tqeffilt "'nadi'" akken ad d-tesbegneḍ tiwlafin.
+    </string>
+    <string name="clik">
+        nadi
+    </string>
+<string name="arzdat">Ma yella awal "'Aru akken i iwata'" yettuɣal-d yal tikkelt marra at kenned ɣef "'Suqqel'", wali ma akken i iwata i turiḍ awal i tebɣiḍ ad d-tessuqqleḍ am wakken i ilaq ad taruḍ asekkil ameqqran deg tazwara n yal awal. Ma yella awal "'Aru akken i iwata'" yettuɣal-d yal daɣen, ḥsu dakken awal-nni mazal ur yekcim ara deg usegzawal-nneɣ, nezmer ad t-nesnerni yal tikkelt.
+Tanemmirt</string>
+    <string name="aidee">
+        Asebter-a d win yerzan imdannen yebɣan ad aɣ-d-yefken afus n tallelt.
+
+Akken tεelmmem, leqdic-a "Tamusni n teqbaylit" d allal yettwaxdem s ttawilat-nneɣ. Deg yeswi n uzuzer n tussna n teqbaylit i yemdannen ur nesεi ara tagnit i waya, ama deg uɣarbaz neɣ berra i uḥric-a.
+D acu ara ibedllen ma nefka-d afud i usenfar-a?
+Amhaz n leqdic "Tamusni n teqbaylit" tessiskkin-awen-d aṭas n twuriwin ɣef waya ad tawali-m ruḥent-d tiseddarin ddew :
+1- asnarni n yinzan d yemdannen yettwasnnen.
+2- ameslay (ad awen-efk tagnit ad tmeslayem zdaxel-is).
+3-asnarni n tqesiḍin xarsum "timucuha".
+4-asnerni n twelafin
+5- ad nernu ɣer waya amaṭaf n radyu.
+Amek ara aɣ-t-εawenem ?
+S lmendad-nneɣ llant waṭas n tarrayin iwakken ad aɣ-d-efkem afus n tallelt.
+Tarrayt tamenzut iwakken ad tεawnem ttawil-a deg tama yelha i wid yebɣan ad εawnnen akked wid i qedcen deg-s.
+S lbiε deg tszenzut-nneɣ tiɣawsiwin i izemren ad ken-yawin lwelhi:
+Tarrayt tis snat (2) iwakken ad tεawnem tarrayt-a d tukci twiza s wayen tebɣam neɣ s wayen tzemrem.
+Ma tebɣam aya llant daɣ snat n tewwura i awen-yettunefkken s uεeddi s uzeṭṭa-a :
+Neɣ s win n ujemmuε n twiza.
+Aẓeṭṭa :
+ Γer tagara tarrayt tis kraḍ iwakken ad fkem afus n tallelt i ttawil-nneɣ anmetti d tin akk isahlen,  d azuzer d ussissen n wayen nqeddec deg tawilat-nwen deg uzeṭṭa anemtti n yal yiwen deg-wen.
+Tanemmirt.
+    </string>
+</resources>

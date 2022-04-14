@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/cutom_button.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/db_round.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/dialogbacck.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/et_bbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/et_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/drawable/recycstyl.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_afardas.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_anza.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_aqalus.xml" value="0.1453125" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_awa.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_igharsiwen.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_imageidurar.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_isefra.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_matoub.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_photoideqi.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_phototazeqa.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_post1.xml" value="0.146875" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_sbe3.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_simoh.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_siul_hocine.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tar.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tarwaisfra.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tasadicitan.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tawkilt.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tglda.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_yamina.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/fragment_home.xml" value="0.146875" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_amawal.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_centre.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_slash.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_timucuha.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_urar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_afardas.xml" value="0.2" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_amawal.xml" value="0.146875" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_amezruy.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_anza.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_aqalus.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_awa.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_centre.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_centrer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_fild.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_groupe.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_igharsiwen.xml" value="0.1203125" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_imageidurar.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_isefra.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_matoub.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_netyok.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_photoideqi.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_phototazeqa.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_post1.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_sbe3.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_simoh.xml" value="0.1" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_siul_hocine.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_slash.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_tar.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_tarwaisfra.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_tasadicitan.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_tawkilt.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_tglda.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_timucuha.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_twiztt.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar3.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_webpage.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_yamina.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/chatmsg.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/fragment_home.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/iseframsg.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/messagess.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/menu/activity_centrer_drawer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/menu/centrer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Mohand/Desktop/Projet/Android Studio/TamusniNTeqvaylith/app/src/main/res/menu/menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/drawable/et_bbg.xml" value="0.36171875" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/drawable/et_bg.xml" value="0.36171875" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-hdpi/activity_centre.xml" value="0.25" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-hdpi/activity_urar.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-ldpi/activity_urar.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-normal/activity_amawal.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_amawal.xml" value="0.9" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_timucuha.xml" value="0.4044943820224719" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_tiwelfin.xml" value="0.2529274004683841" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_urar.xml" value="0.67" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout-small/activity_amawal.xml" value="0.9" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/activity_alertediaa.xml" value="0.4044943820224719" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/activity_amawal.xml" value="0.15234375" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/activity_centre.xml" value="0.5" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/activity_twiztt.xml" value="0.2529274004683841" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar.xml" value="0.15234375" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/app_bar_centrer.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/messagess.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/nav_header_centrer.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/switch_item.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/toolbar.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/layout/toolbarsntr.xml" value="0.1619190404797601" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/menu/centrer.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/arabm/Desktop/TamusniNTeqvaylith/app/src/main/res/menu/menu.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btn_ani_five.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btn_ani_for.xml" value="0.136" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btn_ani_one.xml" value="0.145" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btn_ani_six.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btn_tam_azeta.xml" value="0.131" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btninfo.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btntele.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/btntmsni.xml" value="0.131" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/cercle.xml" value="0.139" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/db_round.xml" value="0.1495" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/diatype.xml" value="0.1495" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/enlignepro.xml" value="0.136" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/enligneprobtn.xml" value="0.136" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/et_bbg.xml" value="0.131" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/gamethem.xml" value="0.13" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/recycstyl.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/sendbg.xml" value="0.1495" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/tam_tira_top.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/drawable/zoom.xml" value="0.139" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-hdpi/activity_centre.xml" value="0.25" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_afardas.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_amarkal.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_amawal.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_amezruy.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_anza.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_aqalus.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_avantcentre.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_awa.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_azeta.xml" value="0.22" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_centre.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_centrer.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_fetta.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_groupe.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_igharsiwen.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_imageidurar.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_info.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_isefra.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_listeprn.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_matoub.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_modefie.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_photoideqi.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_phototazeqa.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_post1.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_sbe3.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_simoh.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_siul_hocine.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_starting_screen.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tafada.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_amarkal_asaghlu.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_amarkal_igemad.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_amezruy_videcase.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_aaban.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_aadil.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_aalaw.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_abarnus.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_agartil.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_azeta.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_taqendurt.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_azeta_tisfifin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_aba3uc.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_illel.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_temda.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_tezgi.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_tiniri.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_igharsiwen_yetfarfiren.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_rryac_igharsiwen.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_rryac_tafelaht.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_rryac_tayuga.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tafada_ahil.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tafada_ayyur.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tafada_bousol.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tafada_ussan.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tafek.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_azru.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_ifran.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_ifran_ifran.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_tibladin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_tibladin_amnay.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_tibladin_tissira.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tasenzikt_tibladin_umezruy.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tazeqa_element.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tazeqa_type.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tbel_atabass.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tbel_iwasifen.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tbel_tizemarin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tigedrin_ajeggig.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tigedrin_iferujya.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tigedrin_iguma.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tigedrin_izegza.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_ideqi.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_ifri.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_tahnayin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_tecrad.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_uqalus.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tam_tirra_uzzeta.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tamurth.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tar.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tarwaisfra.xml" value="0.1001765225066196" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tasadicitan.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tasen_zikt.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tasentrit.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tawkilt.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tazeqa.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tbeltam.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tglda.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tigedrin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tiqubtin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tira.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_tiwlafin_tiqdimin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_urar3.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_urar3str.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_urarwisin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_webpage.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_yamina.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/content_centrer.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/fragment_home.xml" value="0.16593115622241836" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-land/fragment_send.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-normal/activity_amawal.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port-v21/login.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port-v23/activity_tamusni.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_aide.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_amawal.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_chats.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_compte.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_inscription.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_main2r.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_slash.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_timucuha.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_tiwelfin.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_urar.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-port/login.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-small/activity_amawal.xml" value="1.0738636363636365" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout-v26/fragment_send.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_afardas.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_aide.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_alertediaa.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_amarkal.xml" value="0.26375" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_amass.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_amawal.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_amezruy.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_anza.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_aqalus.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_avantcentre.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_awa.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_azeta.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_azwil.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_botique_splash.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_botiquesplash.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_centre.xml" value="0.14" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_centrer.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_chats.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_choix.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_compte.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_dialog2.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_dialogiagalen.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_fetta.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_fild.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_groupe.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_igharsiwen.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_imageidurar.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_info_tirra.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_inscription.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_isefra.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_isefranv.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_listeprn.xml" value="0.33" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_listetype.xml" value="0.13417951042611062" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_live.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_main2r.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_matoub.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_mdpobl.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_modefie.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_photoideqi.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_phototazeqa.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_post1.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_quizz.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_quizz1.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_recycleisefra.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_reunion.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_sbe3.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_simoh.xml" value="0.8197879858657244" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_siul_hocine.xml" value="0.4395833333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_slash.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_starting_screen.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tafada.xml" value="0.25" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_amarkal_asaghlu.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_amarkal_igemad.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_amezruy_videcase.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_aaban.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_aadil.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_aalaw.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_abarnus.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_agartil.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_azeta.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_taqendurt.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_azeta_tisfifin.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_aba3uc.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_illel.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_temda.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_tezgi.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_tiniri.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_igharsiwen_yetfarfiren.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_info.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_info_amezruy.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_info_dbl.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_info_vdo.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_info_vdofto.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_rryac_igharsiwen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_rryac_tafelaht.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_rryac_tayuga.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tafada_ahil.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tafada_ayyur.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tafada_bousol.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tafada_ussan.xml" value="0.22" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tafek.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_azru.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_ifran.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_ifran_ifran.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_tibladin.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_tibladin_amnay.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_tibladin_tissira.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tasenzikt_tibladin_umezruy.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tazeqa_element.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tazeqa_type.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tbel_atabass.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tbel_iwasifen.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tbel_tizemarin.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tigedrin_ajeggig.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tigedrin_iferujya.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tigedrin_iguma.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tigedrin_izegza.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_ideqi.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_ifri.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_tahnayin.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_tecrad.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_uqalus.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tam_tirra_uzzeta.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tamurth.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tamusni.xml" value="0.19756554307116106" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tar.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tarwaisfra.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tasadicitan.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tasen_zikt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tasentrit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tawkilt.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tazeqa.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tbeltam.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tglda.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tigedrin.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_timucuha.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tiqubtin.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tira.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tiwelfin.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_tiwlafin_tiqdimin.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_twiztt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar.xml" value="0.1693121693121693" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar3.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_urar3str.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_urarwisin.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_webpage.xml" value="0.1" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/activity_yamina.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/app_bar_centrer.xml" value="0.18" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/cercle.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/chatmsg.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/content_botiquesplash.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/content_centre.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/content_centrer.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/content_splashbutik.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/dialog.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/dialog_tamusni.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/fragment_first.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/fragment_first2.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/fragment_second.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/fragment_send.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/iseframsg.xml" value="0.4395833333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/login.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/messagess.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/nav_header_centrer.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/layout/toolbar.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/menu/activity_centrer_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/menu/centrer.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1145" />
+        <entry key="..\:/Users/arabm/OneDrive/Bureau/TamusniNTeqvaylith/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-hdpi/activity_centre.xml" value="0.22" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-hdpi1/activity_centre.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-land/activity_centre.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_centre.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_main2r.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/activity_slash.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout-port/login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_centre.xml" value="0.75" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_main2r.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/activity_slash.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/content_centrer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/arabm/OneDrive/Documents/Android Studio/TamusniNTeqvaylith/app/src/main/res/layout/login.xml" value="0.1900352733686067" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

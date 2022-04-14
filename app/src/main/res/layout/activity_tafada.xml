@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tafada"
+    android:background="@drawable/yess">
+<ImageView
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:id="@+id/imglogo"
+    android:layout_width="120dp"
+    android:layout_height="110dp"
+    tools:ignore="ContentDescription">
+</ImageView>
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:background="@drawable/button1"
+            android:id="@+id/ahil"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/ahil_deg_wass"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+
+        <Button
+            android:background="@drawable/button1"
+            android:id="@+id/ussan"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/ussan_n_imalas"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+
+        <Button
+            android:background="@drawable/button1"
+            android:id="@+id/ayyur"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/ayyur_deg_sugas"
+            android:textSize="13sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+        <Button
+            android:background="@drawable/button1"
+            android:id="@+id/bousol"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/ti_iwanin_tinaragin"
+            android:textSize="11sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/tempsac"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+</RelativeLayout>

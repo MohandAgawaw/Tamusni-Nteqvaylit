@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/yess"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".igharsiwen">
+<ImageView
+ android:layout_alignParentStart="true"
+    android:layout_marginStart="10dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:id="@+id/imglogo"
+    android:layout_width="90dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/todo">
+</ImageView>
+
+    <LinearLayout
+
+
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@drawable/btn_ani_one"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:background="@drawable/fish"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="-15dp"
+            android:background="#0D302929"
+            android:text="@string/i_ersiwen_n_illel"
+            android:textColor="#E8032DFF"
+            android:textSize="11sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/btn_ani_tow"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img2"
+                android:background="@drawable/desert"
+                android:layout_width="100dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="-15dp"
+                android:background="#14FFFFFF"
+                android:text="@string/i_ersiwen_n_tiniri"
+                android:textColor="#E8FF9F03"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/btn_ani_three"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img3"
+                android:background="@drawable/mediterranean"
+                android:layout_width="100dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="-15dp"
+                android:background="#14FFFFFF"
+                android:text="@string/i_ersiwen_n_temda"
+                android:textColor="#E829D60A"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/btn_ani_for"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img4"
+                android:background="@drawable/eagle"
+                android:layout_width="100dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="-15dp"
+                android:background="#14FFFFFF"
+                android:text="@string/i_ersiwen_i_yettfefiren"
+                android:textColor="#E853514D"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/btn_ani_five"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded">
+            <ImageView
+                android:id="@+id/img5"
+                android:background="@drawable/kingsnak"
+                android:layout_width="100dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="-15dp"
+                android:background="#14FFFFFF"
+                android:text="@string/i_ersiwen_n_te_gi"
+                android:textColor="#E8FF0000"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/btn_ani_six"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img6"
+                android:background="@drawable/spider"
+                android:layout_width="100dp"
+                android:layout_height="40dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="-15dp"
+                android:background="#14FFFFFF"
+                android:text="@string/iba_ac"
+                android:textColor="#F00ADAA1"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

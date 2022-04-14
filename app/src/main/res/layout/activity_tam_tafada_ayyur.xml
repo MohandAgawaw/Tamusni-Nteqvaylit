@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yess"
+    tools:context=".tam_tafada_ayyur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/awitay_n_tyirza_aqvayli"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_12_yennyer_imensi_n_yennayer_01_wass">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_14_yennyer_u_an_imellalen_20_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_03_furar_l_azla_03_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_06_furar_imir_an_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_13_furar_amer_il_01_wass">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_14_furar_ime_nan_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_21_furar_i_azriyen_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_28_furar_imensi_n_tefsuyt">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_28_furar_tizewwa_in_10_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_10_ma_res_tim_arin_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_17_ma_res_lejware_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_23_ma_res_sswale_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_31_ma_res_im_eznen_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_07_yebrir_a_eyyan_14_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_21_yebrir_tif_irin_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_03_mayyu_nnisan_14_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_17_mayyu_izegzawen_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_24_mayyu_iwra_en_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_30_mayyu_anebdu">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_31_mayyu_imehllalen_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_07_yunyu_iquranen_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_07_yulyu_inssla_01_wass">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_25_yulyu_ssmayem_40_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_30_uct_lexrif">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_30_tuber_le_lal_n_tyerza_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/_27_wamber_iqeccacen_n_tegrest_07_wussan">
+
+        </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_29_wamber_tagrest">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_30_wamber_iqeccacen_n_lexrif_07_wussan">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_25_ember_u_an_iberkanen_20_wussan">
+
+            </TextView>
+
+            <ImageView
+
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imglogo"
+                android:layout_width="60dp"
+                android:layout_height="50dp">
+
+            </ImageView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

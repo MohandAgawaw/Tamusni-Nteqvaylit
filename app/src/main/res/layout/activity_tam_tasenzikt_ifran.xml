@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yyes"
+    tools:context=".tam_tasenzikt_ifran">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_tan_ifri"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgbtn1"
+                android:src="@drawable/ifri"
+                android:layout_width="130dp"
+                android:layout_height="150dp">
+
+            </ImageView>
+            <Button
+                android:id="@+id/btn1"
+                android:text="IFRAN"
+                android:textSize="20sp"
+                android:textColor="#A4FDF7F7"
+                android:layout_marginTop="-5dp"
+                android:background="#00FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="50dp">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_tan_ifri"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgbtn2"
+                android:src="@drawable/imgtisirra"
+                android:layout_width="130dp"
+                android:layout_height="150dp">
+
+            </ImageView>
+            <Button
+                android:id="@+id/btn2"
+                android:text="tissira"
+                android:textSize="20sp"
+                android:textColor="#A4FDF7F7"
+                android:layout_marginTop="-5dp"
+                android:background="#00FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="50dp">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

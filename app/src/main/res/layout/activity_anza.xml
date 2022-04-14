@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anza"
+    android:background="#274858">
+<ImageView
+    android:layout_width="400dp"
+    android:layout_height="480dp"
+    android:background="@drawable/ssmr"
+    android:layout_centerInParent="true"
+    android:contentDescription="@string/Prenom">
+
+</ImageView>
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:background="#995E5858"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </ScrollView>
+</RelativeLayout>

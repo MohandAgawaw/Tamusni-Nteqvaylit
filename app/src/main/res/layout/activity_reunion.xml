@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1201E1E"
+    tools:context=".reunion">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="@drawable/kabyliereunio"
+            android:layout_marginBottom="15dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+        <TextView
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:text="Deg wumḍiq-nni n ''Awal uffir '' , aru awal uffir inek (m) ma yella yehwayak(m) ad d snulfuḍ tajmaɛt i imanik (m) ...
+Ma yella yehwayag(m)-d  ad d kecmeḍ ɣer tejmaɛt i yella-n yakan ilaq ad-tesɛuḍ awal uffir n win id-yesnulfan tajmaɛt-nni syinna tekki ɣef 'Ekecem/ Senker' "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <EditText
+            android:textColor="#FFFFFF"
+
+            android:hint="Awal Ufir...."
+            android:textColorHint="#FFFFFF"
+            android:background="@drawable/et_bg"
+            android:id="@+id/cnfname"
+            android:layout_width="150dp"
+            android:layout_height="45dp">
+
+        </EditText>
+
+        <Button
+
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Ekcem/senker"
+            android:id="@+id/rjw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Handed"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

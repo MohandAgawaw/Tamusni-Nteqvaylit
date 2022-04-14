@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#00F0F0F0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#36888484">
+
+        <LinearLayout
+
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="#36393535"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#F6F6F6"
+                android:layout_gravity="center"
+                android:id="@+id/textiss"
+                android:text="@string/aza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+
+            </TextView>
+            <TextView
+
+                android:textColor="#F6F6F6"
+                android:layout_gravity="center"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/textViewc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+            </TextView>
+
+
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:id="@+id/btnhn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:gravity="center"
+                android:text="@string/han_ed">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

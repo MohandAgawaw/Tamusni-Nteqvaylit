@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu">
+<item
+    
+    android:icon="@drawable/ic_baseline_menu_24"
+    app:showAsAction="ifRoom"
+    android:title="@string/menu">
+<menu>
+
+    <item
+
+        android:icon="@drawable/ic_baseline_home"
+        android:id="@+id/item1"
+        android:title="@string/ami_an" />
+    <item
+        android:icon="@drawable/ic_baseline_chat"
+        android:id="@+id/item2"
+        android:title="@string/inzi_na"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:id="@+id/item2_1"
+        android:title="@string/i_egalen"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/ic_baseline_settings_backup_restore"
+        android:id="@+id/item3"
+        android:title="@string/aide"
+        app:showAsAction="never" />
+
+
+    <item
+        android:icon="@drawable/ic_baseline_perm_device_information_24"
+        android:id="@+id/item4"
+        android:title="@string/information"
+        app:showAsAction="never" >
+
+    </item>
+    <item
+
+        android:icon="@drawable/ic_store"
+        android:id="@+id/item5"
+        android:title="@string/boutique_kabyle"
+        app:showAsAction="never" >
+
+    </item>
+    <item
+        android:icon="@drawable/ic_baseline_keyboard_return_24"
+        android:id="@+id/deku"
+            android:title="@string/asenser"
+        app:showAsAction="never" >
+
+    </item>
+
+</menu>
+
+</item>
+
+
+</menu>

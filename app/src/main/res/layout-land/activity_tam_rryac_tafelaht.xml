@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tafellaht"
+    tools:context=".tam_rryac_tafelaht">
+    <ScrollView
+
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#9E282930"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/netlong"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recycstyl"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:text="Internet Zayet..."
+            android:textStyle="bold"
+            android:id="@+id/textViewc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </TextView>
+        <ProgressBar
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            >
+
+        </ProgressBar>
+
+    </LinearLayout>
+</RelativeLayout>

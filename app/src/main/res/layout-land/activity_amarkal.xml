@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/yess"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Amarkal">
+<ImageView
+    android:id="@+id/imglogo"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    tools:ignore="ContentDescription">
+</ImageView>
+
+    <LinearLayout
+        android:id="@+id/lnrcas"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/vncdr"
+            android:id="@+id/btn1"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/isa_luten"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/vncdr"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/igema"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnrcas"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/aseklu"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+</RelativeLayout>

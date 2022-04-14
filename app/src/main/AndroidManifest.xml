@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Tamusni.tamusninteqvaylith">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".data"
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ico"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/server_back4"/>
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/appid_back4">
+
+        </meta-data>
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/key_back4"/>
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.isefranv"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Listeprn"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.reunion"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.mdpobl"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.BotiqueSplash"
+            android:exported="true" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Avantcentre" />
+
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.fetta"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tiwlafin_tiqdimin"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_amezruy_videcase"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_azeta_taqendurt"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_Rryac_tayuga"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_aba3uc"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tafek"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tigedrin_izegza"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tigedrin_iguma"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tigedrin_iferujya"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tigedrin_ajeggig"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_tezgi"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_yetfarfiren"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_temda"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_tiniri"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_igharsiwen_illel"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_amarkal_igemad"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_amarkal_asaghlu"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tazeqa_element"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tazeqa_type"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_azeta_tisfifin"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_azeta_azeta"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_azeta_abarnus"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_azeta_aadil"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_uzzeta"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_uqalus"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_tecrad"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_tahnayin"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_ifri"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tirra_ideqi"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_tibladin_tissira"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_ifran_ifran"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_tibladin_umezruy"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_tibladin_amnay"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_azru"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_ifran"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tasenzikt_tibladin"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_rryac_tafelaht"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_rryac_igharsiwen"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tbel_tizemarin"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tbel_atabass"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tbel_iwasifen"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tafada_bousol"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tafada_ahil"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tafada_ussan"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.tam_tafada_ayyur"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Tbeltam"
+            android:exported="false" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.webpage"
+            android:exported="true" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.post1"
+            android:exported="true" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tigedrin" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tiqubtin" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.imageidurar" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.urar3str" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.modefie" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.alertediaa" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.urarwisin" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tglda" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.afardas" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.aqalus" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.sbe3" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tasadicitan" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.quizz1" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.urar3" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tafada" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tasentrit" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Amarkal" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.igharsiwen" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Amezruy" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tazeqa" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Azeta" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.awa" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tawkilt" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tar" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.photoideqi" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.phototazeqa" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.yamina" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.anza" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.tarwaisfra" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.SiulHocine" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.simoh" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Matoub" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.activity_starting_screen" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.quizz" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.TasenZikt" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Isefra" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tamurth" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tira" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Centrer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Tiwelfin" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Timucuha" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Urar" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Amawal" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Tamusni"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Chats" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.aide" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Info"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.Tamusni.tamusninteqvaylith.Slash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Inscription" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Main2Activity" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.Login" />
+        <activity android:name="com.Tamusni.tamusninteqvaylith.MainActivity" />
+
+    </application>
+
+</manifest>

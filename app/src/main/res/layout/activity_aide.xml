@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aide"
+    android:background="@drawable/yess">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imglogo"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Presentation"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/Rapel">
+
+            </TextView>
+
+            <TextView
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Explication">
+
+            </TextView>
+            <TextView
+                android:text="@string/Benifice1"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F30000">
+
+            </TextView>
+            <TextView
+                android:textColor="#F30000"
+                android:text="@string/Benifice2"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="#F30000"
+                android:text="@string/Benifice3"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="#F30000"
+                android:text="@string/Benifice4"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="#F30000"
+                android:text="@string/Benifice5"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:text="@string/Solutions"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="@string/facon1"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="@string/facon11"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/linkbtq"
+                        android:layout_marginStart="10dp"
+                        android:textColor="#0333DF"
+                        android:text="@string/facon12"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/pro1"
+                    android:id="@+id/imgbtq2"
+                    android:layout_width="90dp"
+                    android:layout_height="150dp"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/pro2"
+                    android:id="@+id/imgbtq3"
+                    android:layout_width="90dp"
+                    android:layout_height="150dp"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+                <ImageButton
+
+                    android:background="@drawable/pro3"
+                    android:id="@+id/imgbtq4"
+                    android:layout_width="90dp"
+                    android:layout_height="150dp"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:text="@string/facon3"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+
+            </TextView>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="@string/ISMMMTAR"
+
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/tarwa"
+                    android:textColor="#0333DF"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/ISMMMTARlink"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/tarwaidlnk"
+                android:background="@drawable/tarwa"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                tools:ignore="ContentDescription">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

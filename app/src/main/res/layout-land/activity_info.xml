@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:background="@drawable/yess">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:title="@string/app_name"
+
+            >
+
+            <ImageView
+                android:background="@drawable/mat1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"/>
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:id="@+id/lnrvcl"
+                android:background="@drawable/chatsmsgstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnply"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/txttimecu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_00_00"
+                    android:textColor="#000000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <SeekBar
+                    android:id="@+id/seekbarid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1">
+
+                </SeekBar>
+
+                <TextView
+                    android:id="@+id/timedur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_00_00"
+                    android:textColor="#FF0000"
+                    android:textSize="17sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/DiscripctionTQ"
+                android:textSize="20sp"
+                android:lineSpacingExtra="8sp"
+                android:padding="16dp">
+            </TextView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/i_bula_d_wid_id_n_sukkes_seg_tmerza_akked_tezrawin_deg_annar_deg_temurt_n_leqbayel"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:lineSpacingExtra="8sp"
+                android:padding="16dp"
+                > </TextView>
+            <ImageView
+                android:background="@drawable/logo1"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+
+            </ImageView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

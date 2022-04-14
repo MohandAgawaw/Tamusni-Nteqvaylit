@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarwaisfra"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/lien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lewnis_at_mengellat"
+        android:layout_below="@+id/atmg"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#1F28FF"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/atmg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/aith"
+        tools:ignore="ContentDescription">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/clrr"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+    </ScrollView>
+</RelativeLayout>

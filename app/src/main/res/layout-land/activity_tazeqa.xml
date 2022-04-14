@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tazeqa"
+    android:background="@drawable/yyes">
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imglogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+    </ImageView>
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#6AF3AD20"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/mas"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btn1"
+            android:textColor="#8A520F"
+            android:layout_marginTop="-15dp"
+            android:background="@drawable/btn_tam_azeta"
+            android:layout_width="wrap_content"
+            android:text="@string/anaw"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img2"
+            android:src="@drawable/mzel"
+            android:layout_width="100dp"
+            android:layout_height="80dp">
+
+        </ImageView>
+        <Button
+            android:id="@id/btn2"
+            android:text="@string/aferdis"
+            android:layout_marginTop="-15dp"
+            android:background="@drawable/btn_tam_azeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

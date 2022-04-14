@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/yess"
+    android:layout_alignParentTop="true">
+
+
+
+    <Button
+        android:id="@+id/btn_tk"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/btn3"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/et_bbg"/>
+
+    <Button
+        android:id="@+id/btn_fr"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/btn2"
+        android:background="@drawable/et_bbg"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="93dp"
+        android:background="#7C559ACA">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/leanfr"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/Titel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarwa_nda_lounes" />
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/Raison"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/raison_d_tre" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/Raison1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_la_kabylie_a_v_cu_norm_ment_de_destruction_historique_culturelle_et_sociale_durant_les_derni_res_conqu_tes_orientales_et_occidentales" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Raison2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_la_concentration_des_efforts_de_nos_intellectuel_le_s_sur_l_amazighit_a_eu_pour_cons_quence_la_marginalisation_de_la_kabylit" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Raison3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_l_id_ologie_arabo_islamiste_la_colonisation_turque_fran_aise_et_alg_rienne_ont_eu_raison_de_notre_civilisation_kabyle" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/remede"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/le_rem_de_passe_par_la_r_surrection_de" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/remede1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_sa_structure_sociale">
+
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/remede2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_son_savoir_faire">
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/remede3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_son_patrimoine_mat_riel_et_immat_riel">
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/remede4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_et_surtout_le_recentrage_des_r_f_rences_historiques_autour_de_la_kabylit_de_son_territoire_travers_les_ges">
+                    </TextView>  <TextView
+                    android:padding="10dp"
+                    android:id="@+id/remede5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5_faire_parler_notre_langue_mill_naire_l_origine_de_nos_villages_les_motifs_de_la_poterie_les_inscriptions_de_nos_anc_tres">
+                </TextView>  <TextView
+                    android:padding="10dp"
+                    android:id="@+id/remede6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_6_ressusciter_nos_valeureux_cavaliers_guerriers_et_grands_strat_ges_de_leur_poque">
+                </TextView> <TextView
+                    android:padding="10dp"
+                    android:id="@+id/remede7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7_l_histoire_et_le_patrimoine_kabyle_a_t_marginalis_folkloris_et_enterr">
+                </TextView>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="5dp"
+                        android:text="@string/pour_se_faire_axxam_tarwa_n_da_lewnnas_est_venu_pour_relancer_la_civilisation_kabyle_travers_son_histoire_sa_culture_mill_naire_l_h_ritage_scientifique_v_hicul_par_la_langue_la_poterie_et_les_inscriptions_anciennes_axxam_tarwa_n_da_lewnnas_veut_produire_de_la_kabylologie_raconter_l_histoire_de_point_de_vue_scientifique_par_la_recherche_scientifique_l_archivage_et_la_formation_de_femmes_et_d_hommes_qui_vont_reconstruire_l_id_ologie_kabyle_socle_de_toute_civilisation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/Volet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1er_volet_la_recherche_scientifique" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/Volet1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_histoire" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Volet2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_anthropologie_culturelle_et_sociale" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Volet3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_analyse_logique_et_num_rique_de_l_art_kabyle_tatouage_poterie_tapis" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Volet4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_peintures_rupestres" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Volet5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_culture_g_n_rale_isfra_inzan_timucuha" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/Volettow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_me_volet_formation" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/Volet1tow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_chaque_coin_en_kabylie_raconte_et_cache_norm_ment_de_secrets" />
+                    <TextView
+                        android:padding="10dp"
+                        android:id="@+id/Volet2tow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_la_formation_sera_assur_e_pour_un_nombre_restreint_d_tudiant_e_s_et_l_tendre_progressivement_sur_un_nombre_plus_important_afin_de_couvrir_le_territoire_de_la_kabylie" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/Volettre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_me_volet_publications" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/Volet1tre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_r_seaux_sociaux" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/Volet2tre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_application_mobile" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:id="@+id/Programme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/programme" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_histoire_r_crire_l_histoire_de_la_kabylie_depuis_l_antiquit_en_se_basant_sur" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_les_critures_anciennes_de_nos_anc_tres" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_en_d_chiffrant_les_histoires_racont_es_et_transmises_depuis_des_g_n_rations" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_en_d_chiffrant_les_proverbes_contes_et_po_mes_anciens" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ii_culture_la_poterie_et_la_tapisserie_kabyle_sont_riches_en_motifs_et_signes_g_om_triquement_bien_tudi_s_et_qui_ont_une_signification" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_historique_guerres_exodes_famines" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_scientifique_motif_de_f_tus_maladies" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_ph_nom_nes_cosmique_cycle_lunaire_et_solaire_des_toiles_clipse" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_traitement_de_maladies_avec_des_herbes_m_dicinales" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_compagnes_de_distribution_de_livres_en_kabyles" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iii_anthropologie_le_peuple_a_besoin_de_connaitre_ses_propres_personnages_historiques_ses_propres_guerriers_imnayen_qui_ont_d_fendu_son_territoire_la_kabylie_travers_les_ges" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_r_aliser_des_dessins_des_statues_de_nos_propre_guerriers_de_l_avant_et_d_apr_s_j_c_partir_des_st_les_retrouv_es_en_kabylie" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_th_oriser_la_structure_sociale_et_de_gestion_du_peuple_kabyle" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_r_unir_les_concepts_et_les_id_es_philosophiques_qui_d_finissent_l_id_ologie_kabyle" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_r_unir_expliquer_et_organiser_les_diff_rentes_f_tes_intrins_quement_kabyles_et_faire_la_relation_avec_l_environnement_la_nature_et_la_croyance_kabyle" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iv_protection_de_l_environnement_l_environnement_et_la_nature_en_kabylie_ont_toujours_t_au_centre_d_int_r_t_de_ces_citoyens" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_sensibilisation_sur_la_protection_de_la_faune_et_de_la_flore" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_r_am_nagement_des_espaces_et_des_points_d_eaux" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_compagnes_de_nettoyage" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_faire_impliquer_les_citoyens_et_les_coliers_dans_l_op_ration_un_arbre_pour_le_climat" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/v_d_veloppement_personnel_nos_jeunes_ont_besoins_de_se_d_couvrir_tre_la_meilleure_version_de_soi_m_me" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_la_confiance_en_soi" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_la_capacit_de_rebondir" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_prise_de_d_cisions" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_valeur_de_la_libert" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_valeur_de_travail" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vi_la_langue_kabyle_le_travail_acad_mique_r_alis_sur_la_langue_kabyle_ces_trois_derni_res_d_cades_n_a_pas_r_ussi_d_passer_les_fronti_res_des_d_partements_de_la_langue" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_influencer_la_soci_t_dans_le_but_de_changer_des_mots_arabes_par_d_autres_kabyles" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_d_mocratiser_des_mots_pas_trop_utiliti_s_comme_les_noms_de_diff_rents_m_tiers_d_outils" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_dispenser_des_cours_via_les_r_seaux_sociaux" />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vii_vulgarisation_scientifique_la_veille_scientifique" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_espace_et_astronomie" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_informatique" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_blockchain_et_cryptomonnaie" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_r_alit_virtuelle_et_r_alit_augment_e" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_neuralink_avantages_et_inconv_nients" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viii_art_la_jeunesse_kabyle_rec_le_des_comp_tences_artistiques_normes" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_cin_matographique_r_alisation_de_court_m_trages_documentaires_et_dessins_anim_es_instructifs_sur_notre_histoire_ancienne_nos_f_tes_mill_naires" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_dessin_guerriers_vie_d_antan_paysages_et_video_3d"
+                        tools:ignore="TooManyViews" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_caricatures_relations_sociales_protection_de_l_environnement_et_autres_sujets_d_actualit" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="@string/tarwa_nda_lewnnas_se_veut_tre_une_auberge_pour_la_jeunesse_kabyle_afin_de_s_aimer_critiquer_son_pass_am_liorer_son_pr_sent_et_penser_son_avenir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leantaq"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tarwa_n_dda_lwennas" />
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ay_er_nella_ay_er_ara_nili" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_tamurt_taqvaylit_tes_edda_nnger_meqqren_ama_deg_uzruy_ines_ama_d_timetti_ne_d_idles_lad_a_di_tagara_n_unekcum_aberrani_n_usamar_ne_utrim" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_taqvaylit_tu_al_d_tanufrant_immi_d_rran_lwelha_d_uxeddim_n_imusnawennne_ef_tmaz_a" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_tisnaktiyin_ama_usamar_ne_tutrimin_d_imnekcem_aberrani_ttalasent_akk_di_t_arma_taqvaylit" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ddwa_s_ihi_ad_d_n_eyyu" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_ta_essa_ines_di_tmetti">
+
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_tammusni_deg_uxeddim">
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_tigemmi_ines_tangawit">
+                    </TextView>
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_asdukkel_n_yal_a_valu_amazray_id_yellan_ef_tmurt_taqvaylit_di_yal_tallit">
+                    </TextView>  <TextView
+                    android:padding="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5_ad_d_nessen_eq_tutlayt_nne_a_ar_n_tuddar_nne_unu_en_n_tala_t_d_tira_n_lejdud_nne">
+                </TextView>  <TextView
+                    android:padding="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_6_ad_d_ne_yu_imanayen_nne_d_imna_en_imeqqranen">
+                </TextView> <TextView
+                    android:padding="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7_amezruy_f_tgemmi_taqvaylit_tu_al_er_rrif_tu_al_cc_e_kan_tettwam_el">
+                </TextView>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="5dp"
+                        android:text="@string/ef_waya_tarwa_n_dda_lwennas_tella_d_iwakken_ad_d_fe_ta_arma_taqvaylit_deg_umezruy_idles_afiman_tukkest_tussnant_tala_t_d_tira_tiqvurin_tarwa_n_dda_n_lwennas_tev_a_di_en_ad_d_teslal_tussna_taqvaylit_kabylologie_ad_d_nalles_amezruy_s_wudem_ussnan_s_unadi_ussnan_s_u_var_d_usile_n_tlawin_d_yergazen_nne_i_wakken_ad_d_nevnu_tasnakta_taqvaylit_i_t_arma_nne"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_ric_1ur_anadi_ussnan" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_amezruy" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_tassnalsa_tadelsant_tanmettit" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_tasle_t_tame_layt_tum_int_n_t_uri_taqvaylit_ticra_tala_t_agertil_ta_akna" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_taklut_tumlilt" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_tadelsa_tamatut_isefra_inzan_timucuha_tinqisin_atg" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_ric_wis_ssin_asile" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_mmkul_ti_mert_di_tmurt_taqvaylit_ur_s_a_as_n_tuffirin_d_lva_nat" />
+                    <TextView
+                        android:padding="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_asile_agi_ad_yili_i_kra_kan_n_yinelmaden_leqdic_ad_yu_al_ad_yim_ur_iwakken_ad_d_i_az_akk_timna_in_n_tmurt_taqvaylit" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_ric_wis_kra_3_tuffi_in" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_a_e_a_n_l_internet" />
+                    <TextView
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_application_mobile" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FF0000"
+                        android:padding="5dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ahil" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_amezruy_ad_d_nales_tira_n_umezruy_n_tmurt_taqvaylit_si_zmman_n_zik_ad_d_nner_lewhi_er" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_tira_tiqvurin_n_lejdud" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_ad_d_nezmek_ti_kayin_d_temsal_id_kan_wat_zzik_ac_al_n_tsutwin_aya" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_ad_d_nessegzi_inzan_timucuha_d_yisefra_iqvuren" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ii_tadelsa_idles_afexxar_d_u_e_a_n_leqvayel_uren_d_unu_en_d_iseknan_inzegganen_yes_an_a_as_inumak" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_amazray_ra_inig_la" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_tussna_tamentilt_n_umgun_a_anen" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_tanamunt_ph_nom_ne_cosmique_tallust_n_waggur_d_yitij_itran_teksef" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_asejji_seg_wa_anen_s_yim_an" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_azday_d_uzuzzer_n_yidlisen_s_teqvaylit" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iii_tasnalsa_agdud_ye_wa_ad_yissin_iwudam_n_umezruy_is_ad_yissin_imnayen_i_i_udden_tamurt_is_di_yal_tallit" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_asuffe_n_wunu_en_isevdaden_n_yimnayen_nne_ama_uqvel_ama_seld_tallalit_n_sidna_isa_aya_s_isevdad_i_d_ufan_deg_tmurt_taqvaylit" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_asdukkel_ne_anegraw_d_usuddes_n_yal_tame_ra_ye_nan_taqvaylit_ad_d_naf_imir_assa_yellan_gar_as_d_twenna_h_d_ugama_d_wayen_s_wayes_ttamnen_leqvayel" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iv_ase_viver_ef_twenna_t_si_zikk_ase_viver_ef_twenna_t_d_tezdeg_akken_id_yekkr_yi_s_ugdud_aqvayli" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_assefrey_ne_asemter_ef_u_arev_n_yi_ersiwen_d_yim_an" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_a_awed_d_uq_ad_n_imekkwan_d_tliwa_n_waman" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_assihel_n_wa_as_n_twiziwin_n_ussizdeg" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_yal_amdan_yal_anelmad_ad_ittekki_di_tamhelt_yiwen_n_useklu_i_unezwu" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/v_asnerni_n_yiman_ilme_yen_wa_en_ad_afen_iman_nsen_ad_garzen_garasen_d_yiman_nsen" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_ad_tes_u_lettkal_deg_yiman_ik" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_ad_tizmire_ad_dekkre_i_tikelt_nni_en" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_ad_te_fe_di_rray_ik" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_azal_n_tlelli" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_azal_n_uxeddim" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vi_tutlayt_taqvaylit_leqdic_asdawan_i_yettwaxedmen_ef_teqvaylit_di_kra_3_n_amrawseggas_yezrin_ur_d_yelli_kra_unerni_anagar_ayen_yettwaqedcen_deg_ugezdu_n_tutlayt" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_aveddel_d_useqdec_n_wawalen_nessemras_s_ta_ravt_s_wid_ne_teqvaylit_nne" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_asegdu_n_wawalen_ur_nsseqdac_ara_s_wa_as_am_yismawen_n_twuri_n_wallalen" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_azzuzer_n_temsirin_s_teqvaylit_deg_u_e_a_n_tmetti" />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vii_asnezwi_n_tusna_ateddu_d_tussna" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_allun_d_tasnallunt" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_tasenselkimt" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_blockchain_et_cryptomonnaie" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_4_asseqdec_d_usemres_n_wallalen_itiknuligiyen_d_um_inen" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_neuralink_gar_ibu_ar_d_u_ilif" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viii_ta_uri_ilme_yen_iqvayliyin_s_an_a_as_n_twezza_tina_uranin_labe_da" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1_asarag_asufe_n_isura_ifetrawen_unu_en_yettembiwilen_d_isental_ara_islemden_tarwa_nne_ef_umezruy_idels_nne" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2_unu_en_imna_en_tudert_n_zik_ime_ri_video_3d" />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_af_ul_isental_ad_ilin_cudden_er_tmetti_ase_viver_ef_twena_t_d_isental_nni_en_a_arun_imir_a" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="@string/tarwa_n_dda_lwennas_teb_a_ad_tili_d_tasdarit_i_ilme_yen_nne_iqvayliyen_iwakken_ad_mmye_malen_ad_sqerdcen_izri_nsen_ad_ggerzen_ass_a_nsen_wa_xemmen_ef_uzekka_nsen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/continuer"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/et_bbg"/>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Urar"
+    android:background="@drawable/gamefond">
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/imglogo"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signebat">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/quiz"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg"
+            android:text="@string/Jeu_de_questions">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/signe">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signebat">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/urar2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg"
+            android:text="@string/Jeu_de_questions_photo">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/signe">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signebat">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/urar3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg"
+            android:text="@string/finir_les_phrases_suivante">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signe">
+
+        </TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/toolbar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7E667983"
+    android:theme="@style/AppTheme"
+    app:popupTheme="@style/AppTheme.menu"
+    app:title="ⵣ.Tamusni N Teqvaylit.ⵣ">
+
+<ImageView
+    android:layout_width="51dp"
+    android:layout_height="50dp"
+    android:background="@drawable/ico"
+    android:layout_marginStart="35dp">
+
+</ImageView>
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BotiqueSplash">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_centerInParent="true"
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/shp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rlt"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="230dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/cercle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="cursive"
+                android:text="Boutique Kabyle©"
+                android:textColor="#000000"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </RelativeLayout>
+
+        <TextView
+
+            android:padding="5dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/rlt"
+            android:background="#A8FFFFFF"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Sɣur Tarwa Nda Lounes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

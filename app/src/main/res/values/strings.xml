@@ -1,0 +1,429 @@
+<resources>
+    <string name="app_name">Tamusni N Teqvaylit</string>
+    <string name="inscription">Jerred (inscription)</string>
+    <string name="Mas">Amalay</string>
+    <string name="Fim">Unti</string>
+    <string name="name">Nqema</string>
+    <string name="namee">Nqema : </string>
+    <string name="MDp">Awal_Ufir</string>
+    <string name="btn3">Taqvaylith</string>
+    <string name="btn2">tarumith</string>
+    <string name="Textekb">taqvaylith</string>
+    <string name="btn">Eggez.</string>
+    <string name="btn1">Semllal</string>
+    <string name="im">imageview</string>
+    <string name="continuer">Asul</string>
+    <string name="Prenom">Isem-ik(im)</string>
+    <string name="Prenomm">Isem : </string>
+    <string name="login">Qqen (connecter)</string>
+    <string name="email">Tirwat@Email.com</string>
+    <string name="Email">Tirwat</string>
+    <string name="Centre_Btn1">Tamusni 📖</string>
+    <string name="Centre_Btn2">Amawal 📙</string>
+    <string name="Centre_Btn3">Urar 🎮</string>
+    <string name="Centre_Btn4">Timucuha📜</string>
+    <string name="centre_Btn5">Tiwlafin 📸</string>
+    <string name="centre_Btn6">Isefra 🖋</string>
+    <string name="information">Talɣut</string>
+    <string name="aide">Tallalt</string>
+    <string name="em">suppot@tamusninteqvaylit.online</string>
+    <string name="Paramètre">Amsektay neɣ aɣewwar</string>
+    <string name="aw">Aru Awal-ik (im) dagi.</string>
+    <string name="sw">Siwdhed</string>
+    <string name="mode_nuit">Askar n yiḍ</string>
+    <string name="aidez_lapplication">sellek asnas alel</string>
+    <string name="nous_contacter">Ssiwel-aneɣ-d </string>
+    <string name="Retour">Tuɣalin</string>
+    <string name="envoyer_nous_un_messge">Azen-aɣ-d izen</string>
+
+    <string name="Ta">Tarwa Nda Lounes</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    //Back4app
+    <string name="server_back4">https://parseapi.back4app.com/</string>
+    <string name="appid_back4">i8UFZ0YUgguPWizGQiHM8TzGN1gn6T81rSLkAQpt</string>
+    <string name="key_back4">ftJVpI0xOaN6V7SKGhqZuUnAeQSYJbeFuzuphRCX</string>
+
+    <string name="menu_home">Profil</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Ssiwel-aneɣ-d</string>
+    <string name="title_activity_dwar">Dwar</string>
+    #tamusni---------------------------------
+    <string name="Acrcheologie">TasenZikt</string>
+    <string name="animaux">Iɣersiwen</string>
+    <string name="Azeta">Azeta</string>
+    <string name="astronomy">Rryac</string>
+    <string name="calendrier">Tafada</string>
+    <string name="chiffre">Azwil</string>
+    <string name="Ecriture">Tira</string>
+    <string name="geographie">Amrakal</string>
+    <string name="Histoirs">Amezruy</string>
+    <string name="maison">Tazeqa</string>
+    <string name="linguistique">Tasnilest</string>
+    <string name="potterie">Ideqqi</string>
+    #Amawal------------------------------
+    <string name="awalik">
+       Awal-ik
+    </string>
+    <string name="S">kenned ɣef "'Suqqel'"</string>
+
+
+    #Urar-----------------------------------
+
+    <string name="Jeu_de_questions">Urar N Tuttriwin</string>
+    <string name="Jeu_de_questions_photo">Tuttriwin N Tiwelfin </string>
+    <string name="finir_les_phrases_suivante">TIMSAƐRAQ</string>
+
+    <string name="gauche">☜</string>
+    <string name="droite">☞</string>
+
+    #Isefra------------------------
+
+    <string name="simuh">
+     Si Muḥ U Mḥend 👉
+    </string>
+    <string name="mtb">
+    Lwennas Meɛṭub 👉
+    </string>
+    <string name="cix">
+    Ccix Muḥend U Lḥusin 👉
+    </string>
+    <string name="hadja">
+        hadja yamina 👉
+    </string>
+    <string name="samir">
+        Samir Mukrani 👉
+    </string>
+    <string name="aith">
+    Aït Menguellet 👉
+    </string>
+    #Tiwelfin----------------
+
+    <string name="Tamurt">Tamurt</string>
+
+
+    #Wilaya--------------------------
+    <string name="Tizi">
+
+Tizi Wezzu
+
+    </string>
+    <string name="Bejaia">
+Bgayet
+    </string>
+    <string name="Bouira">
+Tubiret
+    </string>
+    <string name="Boumerdes">
+Bumerdas
+    </string>
+    <string name="Jijel">
+Ğiğel
+    </string>
+    <string name="Borj">
+Burğ Bu3rarij
+
+    </string>
+    <string name="Setif">
+Setif
+    </string>
+    #Histoire-------------
+    <string name="tiw">Tawizet n Tnach</string>
+    <string name="sur">Sur n vujehli</string>
+    <string name="ty">Taryel</string>
+    <string name="tw">Tawkilt</string>
+    <string name="aww">Awaɣezniw</string>
+    <string name="l_ula_d_seb_a_n_tulas">Lɣula d sebɛa n tulas</string>
+    <string name="ah_eddad_n_lqalus">Aḥeddad n Lqalus</string>
+    <string name="agellid_afer_as">Agellid aferḍas</string>
+    <string name="tamacahut_n_tgelda">Tamacahut n tgelda</string>
+    <string name="muqqel_uqqin_n_uze_a_nwen_ma_ur_tes_im_ara_internet_ad_tes_um_ugur_deg_kra_n_twuriwin_n_usrussu_ya">muqqel uqqin n uzeṭṭa-nwen ma ur tesεim ara internet, ad tesεum ugur deg kra n twuriwin n usrussu-ya.</string>
+    <string name="ugur_n_uze_a">Ugur n uzeṭṭa</string>
+    <string name="errsym">⛔</string>
+    <string name="tu_alin">Tuɣalin</string>
+    <string name="tarwa_nda_lounes">Tarwa Nda Lounes©</string>
+    <string name="tamusni_nteqvaylit">Tamusni NTeqvaylit®</string>
+    <string name="signe">🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼🔼</string>
+    <string name="signebat">🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽🔽</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="tigedrin">Tigedrin</string>
+    <string name="i_ersiwen_n_illel">Iɣersiwen n illel</string>
+    <string name="i_ersiwen_n_tiniri">Iɣersiwen n Tiniri</string>
+    <string name="i_ersiwen_n_temda">Iɣersiwen n Temda</string>
+    <string name="i_ersiwen_i_yettfefiren">Iɣersiwen I Yettfefiren</string>
+    <string name="i_ersiwen_n_te_gi">Iɣersiwen n Teẓgi</string>
+    <string name="todoo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="ssider">Ssider 📲</string>
+    <string name="todo8">TODO</string>
+    <string name="internet_zayet1">Internet Zayet...</string>
+    <string name="asenser">Asenser</string>
+    <string name="boutique_kabyle">Boutique Kabyle</string>
+    <string name="ami_an">amiḏ̣an</string>
+    <string name="chats">chats</string>
+    <string name="ta_jeb_awen">Taɛjeb-awen ?</string>
+    <string name="tarwa_nda_lsounes">Tarwa Nda Lounes 👥</string>
+    <string name="menu">Menu</string>
+    <string name="tbel">Tbel</string>
+    <string name="awitay_n_tyirza_aqvayli">Awitay n tyirza Aqvayli</string>
+    <string name="_12_yennyer_imensi_n_yennayer_01_wass">12 Yennyer : imensi n yennayer : 01 Wass.</string>
+    <string name="_14_yennyer_u_an_imellalen_20_wussan">14 Yennyer : uḍan imellalen : 20 Wussan.</string>
+    <string name="_03_furar_l_azla_03_wussan">03 Furar : lεazla : 03 Wussan.</string>
+    <string name="_06_furar_imir_an_07_wussan">06 Furar : imirγan : 07 Wussan.</string>
+    <string name="_13_furar_amer_il_01_wass">13 Furar : amerḍil : 01 Wass.</string>
+    <string name="_14_furar_ime_nan_07_wussan">14 Furar : imeγnan : 07 Wussan.</string>
+    <string name="_21_furar_i_azriyen_07_wussan">21 Furar : iεazriyen : 07 Wussan.</string>
+    <string name="_28_furar_imensi_n_tefsuyt">28 Furar : imensi n tefsuyt.</string>
+    <string name="_28_furar_tizewwa_in_10_wussan">28 Furar : tizewwaγin : 10 Wussan.</string>
+    <string name="_10_ma_res_tim_arin_07_wussan">10 Maɣres : timγarin : 07 Wussan.</string>
+    <string name="_17_ma_res_lejware_07_wussan">17 Maɣres : lejwareḥ : 07 Wussan.</string>
+    <string name="_23_ma_res_sswale_07_wussan">23 Maɣres : sswaleḥ : 07 Wussan.</string>
+    <string name="_31_ma_res_im_eznen_07_wussan">31 Maɣres : imḥeznen : 07 Wussan.</string>
+    <string name="_07_yebrir_a_eyyan_14_wussan">07 Yebrir : aḥeggan : 14 Wussan.</string>
+    <string name="_21_yebrir_tif_irin_07_wussan">21 Yebrir : tifḍirin : 07 Wussan.</string>
+    <string name="_03_mayyu_nnisan_14_wussan">03 Mayyu : nnisan : 14 Wussan.</string>
+    <string name="_17_mayyu_izegzawen_07_wussan">17 Mayyu : izegzawen : 07 Wussan.</string>
+    <string name="_24_mayyu_iwra_en_07_wussan">24 Mayyu : iwraγen : 07 Wussan.</string>
+    <string name="_30_mayyu_anebdu">30 Mayyu anebdu.</string>
+    <string name="_31_mayyu_imehllalen_07_wussan">31 Mayyu : imehllalen : 07 Wussan.</string>
+    <string name="_07_yunyu_iquranen_07_wussan">07 Yunyu : iquranen : 07 Wussan.</string>
+    <string name="_25_ember_u_an_iberkanen_20_wussan">25 ǧember : uḍan iberkanen : 20 Wussan.</string>
+    <string name="_30_wamber_iqeccacen_n_lexrif_07_wussan">30 Wamber : iqeccacen n lexrif : 07 Wussan.</string>
+    <string name="_29_wamber_tagrest">29 Wamber : tagrest.</string>
+    <string name="_27_wamber_iqeccacen_n_tegrest_07_wussan">27 Wamber : iqeccacen n tegrest : 07 Wussan.</string>
+    <string name="_30_tuber_le_lal_n_tyerza_07_wussan">30 Tuber : leḥlal n tyerza : 07 Wussan.</string>
+    <string name="_30_uct_lexrif">30 ɣuct : lexrif.</string>
+    <string name="_25_yulyu_ssmayem_40_wussan">25 Yulyu : ssmayem : 40 Wussan.</string>
+    <string name="_07_yulyu_inssla_01_wass">07 Yulyu : εinssla : 01 Wass.</string>
+    <string name="si_mu_end_u_m_end_n_at_maduc">Si Muḥend U Mḥend n At Ḥmaduc</string>
+    <string name="ccix_mu_end_u_l_usin">Ccix Muḥend U Lḥusin</string>
+    <string name="aza">ⵣⵣⵣⵣⵣⵣⵣⵣⵣⵣⵣⵣ</string>
+    <string name="han_ed">Hanḍed</string>
+    <string name="ussan_deg_durt">Ussan deg durt</string>
+    <string name="ahil_deg_wass">Ahil Deg Wass</string>
+    <string name="ayyur_deg_sugas">Ayyur Deg Sugas</string>
+    <string name="agafa">Agafa</string>
+    <string name="asamar">Asamar</string>
+    <string name="tanila">Tanila</string>
+    <string name="ti_iwanin_tinaragin">tiɣiwanin tinaragin</string>
+    <string name="urar_tzemarin">Urar tzemarin 🎷</string>
+    <string name="tbel_ath_abbes">tbel ath abbes 🥁</string>
+    <string name="tbel_iwasifen">tbel iwasifen 🥁</string>
+    <string name="afecku_i_yi_esiwen">Afecku i yiɣesiwen</string>
+    <string name="afecku_n_tefella_t">Afecku n tefellaḥt</string>
+    <string name="jdkk">jdkk</string>
+    <string name="isa_luten">Isaɣluten</string>
+    <string name="igema">Igemaḍ</string>
+    <string name="tirra_n_ideqi">Tira N Ideqqi</string>
+    <string name="tirra_n_ifri">Tira N Yefri</string>
+    <string name="tirra_n_tahnayin">Tira N Teḥnayin</string>
+    <string name="tirra_n_tecrad">Tira N Tecraḍ</string>
+    <string name="tirra_n_uqalus">Tira N Uqalus</string>
+    <string name="tirra_n_uzzeta">Tira N Uẓeṭṭa</string>
+    <string name="abarnus">abarnus</string>
+    <string name="izegza">Izegza</string>
+    <string name="iguma">iguma</string>
+    <string name="iferujya">iferujya</string>
+    <string name="aje_ig">ajeǧǧig</string>
+    <string name="aferdis">Aferdis</string>
+    <string name="anaw">Anaw</string>
+    <string name="tafeka">Tafeka</string>
+    <string name="iba_ac">ibaɛac</string>
+    <string name="tayuga">Tayuga</string>
+    <string name="tayuga_n_yezgaren">Tayuga n yezgaren</string>
+    <string name="ussan_n_imalas">Ussan n-imalas</string>
+    <string name="taqendurt">Taqendurt</string>
+    <string name="ad_isina">ad-isinaƔ</string>
+
+    <string name="ejj_ami_an_inek_inem_yeldi">Ejj amiḍan-inek(inem) yeldi</string>
+    <string name="_00_00">00:00</string>
+    <string name="aqalus">Asɣul</string>
+    <string name="title_activity_centre">centre</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_amass">amass</string>
+    <string name="lewnis_at_mengellat">Lewnis At Mengellat</string>
+    <string name="title_activity_splshbutik">splshbutik</string>
+    <string name="title_activity_splashbutik">splashbutik</string>
+    <string name="title_activity_botiquesplash">Botiquesplash</string>
+    <string name="_1_la_kabylie_a_v_cu_norm_ment_de_destruction_historique_culturelle_et_sociale_durant_les_derni_res_conqu_tes_orientales_et_occidentales">1- La KABYLIE a vécu énormément de destruction historique, culturelle et sociale durant les dernières conquêtes orientales et occidentales</string>
+    <string name="_2_la_concentration_des_efforts_de_nos_intellectuel_le_s_sur_l_amazighit_a_eu_pour_cons_quence_la_marginalisation_de_la_kabylit">2-La concentration des efforts de nos intellectuel.le.s sur l’amazighité a eu pour conséquence la marginalisation de la Kabylité.</string>
+    <string name="raison_d_tre"><![CDATA[Raison d’être :]]></string>
+    <string name="_3_l_id_ologie_arabo_islamiste_la_colonisation_turque_fran_aise_et_alg_rienne_ont_eu_raison_de_notre_civilisation_kabyle">3-L’idéologie arabo-islamiste, la colonisation turque, française et algérienne ont eu raison de notre civilisation kabyle.</string>
+    <string name="le_rem_de_passe_par_la_r_surrection_de"><![CDATA[Le remède passe par La résurrection de :]]></string>
+    <string name="_1_sa_structure_sociale">1- Sa structure sociale</string>
+    <string name="_2_son_savoir_faire"><![CDATA[2- Son savoir-faire ]]></string>
+    <string name="_3_son_patrimoine_mat_riel_et_immat_riel"><![CDATA[3- Son patrimoine matériel et immatériel ]]></string>
+    <string name="_4_et_surtout_le_recentrage_des_r_f_rences_historiques_autour_de_la_kabylit_de_son_territoire_travers_les_ges"><![CDATA[4- Et surtout le recentrage des références historiques autour de la kabylité de son territoire à travers les âges ]]></string>
+    <string name="_5_faire_parler_notre_langue_mill_naire_l_origine_de_nos_villages_les_motifs_de_la_poterie_les_inscriptions_de_nos_anc_tres">5- Faire parler notre langue millénaire, l’origine de nos villages, les motifs de la poterie, les inscriptions de nos ancêtres</string>
+    <string name="_6_ressusciter_nos_valeureux_cavaliers_guerriers_et_grands_strat_ges_de_leur_poque">6- Ressusciter nos valeureux cavaliers, guerriers et grands stratèges de leur époque</string>
+    <string name="_7_l_histoire_et_le_patrimoine_kabyle_a_t_marginalis_folkloris_et_enterr">7- L’histoire et le patrimoine Kabyle a été marginalisé, folklorisé et enterré.</string>
+    <string name="pour_se_faire_axxam_tarwa_n_da_lewnnas_est_venu_pour_relancer_la_civilisation_kabyle_travers_son_histoire_sa_culture_mill_naire_l_h_ritage_scientifique_v_hicul_par_la_langue_la_poterie_et_les_inscriptions_anciennes_axxam_tarwa_n_da_lewnnas_veut_produire_de_la_kabylologie_raconter_l_histoire_de_point_de_vue_scientifique_par_la_recherche_scientifique_l_archivage_et_la_formation_de_femmes_et_d_hommes_qui_vont_reconstruire_l_id_ologie_kabyle_socle_de_toute_civilisation">Pour se faire, Axxam tarwa n da lewnnas est venu pour relancer la civilisation kabyle à travers son histoire, sa culture millénaire, l’héritage scientifique véhiculé par la langue, la poterie et les inscriptions anciennes. Axxam Tarwa n da lewnnas veut produire de la Kabylologie (Raconter l’histoire de point de vue scientifique) par la recherche scientifique, l’archivage et la formation de femmes et d’hommes qui vont reconstruire l’idéologie kabyle socle de toute civilisation.</string>
+    <string name="_1er_volet_la_recherche_scientifique"><![CDATA[1er volet : La recherche scientifique]]></string>
+    <string name="_1_histoire">1- Histoire</string>
+    <string name="_2_anthropologie_culturelle_et_sociale">2- Anthropologie culturelle et sociale</string>
+    <string name="_3_analyse_logique_et_num_rique_de_l_art_kabyle_tatouage_poterie_tapis">3- Analyse logique et numérique de l’art kabyle (Tatouage, poterie, tapis)</string>
+    <string name="_4_peintures_rupestres">4- Peintures rupestres</string>
+    <string name="_5_culture_g_n_rale_isfra_inzan_timucuha"><![CDATA[5- Culture générale : Isfra, Inzan, Timucuha]]></string>
+    <string name="_2_me_volet_formation"><![CDATA[2ème volet : Formation]]></string>
+    <string name="_1_chaque_coin_en_kabylie_raconte_et_cache_norm_ment_de_secrets">1- Chaque coin en Kabylie raconte et cache énormément de secrets</string>
+    <string name="_2_la_formation_sera_assur_e_pour_un_nombre_restreint_d_tudiant_e_s_et_l_tendre_progressivement_sur_un_nombre_plus_important_afin_de_couvrir_le_territoire_de_la_kabylie">2- La formation sera assurée pour un nombre restreint d’étudiant(e)s, et l’étendre progressivement sur un nombre plus important afin de couvrir le territoire de la Kabylie</string>
+    <string name="_3_me_volet_publications"><![CDATA[3ème volet : Publications]]></string>
+    <string name="_1_r_seaux_sociaux">1- Réseaux sociaux</string>
+    <string name="_2_application_mobile">2- application mobile</string>
+    <string name="programme"><![CDATA[Programme :]]></string>
+    <string name="i_histoire_r_crire_l_histoire_de_la_kabylie_depuis_l_antiquit_en_se_basant_sur"><![CDATA[I- Histoire : Réécrire l’histoire de la KABYLIE depuis l’antiquité en se basant sur :]]></string>
+    <string name="_1_les_critures_anciennes_de_nos_anc_tres">1- Les écritures anciennes de nos ancêtres</string>
+    <string name="_2_en_d_chiffrant_les_histoires_racont_es_et_transmises_depuis_des_g_n_rations">2- En déchiffrant les histoires racontées et transmises depuis des générations</string>
+    <string name="_3_en_d_chiffrant_les_proverbes_contes_et_po_mes_anciens">3- En déchiffrant Les proverbes, contes et poèmes anciens.</string>
+    <string name="ii_culture_la_poterie_et_la_tapisserie_kabyle_sont_riches_en_motifs_et_signes_g_om_triquement_bien_tudi_s_et_qui_ont_une_signification"><![CDATA[II- Culture : La poterie et la tapisserie Kabyle sont riches en motifs et signes géométriquement bien étudiés et qui ont une signification :]]></string>
+    <string name="_1_historique_guerres_exodes_famines">1- Historique (Guerres, exodes, famines, …)</string>
+    <string name="_2_scientifique_motif_de_f_tus_maladies">2- Scientifique (motif de fœtus, maladies …)</string>
+    <string name="_3_ph_nom_nes_cosmique_cycle_lunaire_et_solaire_des_toiles_clipse">3- Phénomènes cosmique (cycle lunaire et solaire, des étoiles, éclipse, …)</string>
+    <string name="_4_traitement_de_maladies_avec_des_herbes_m_dicinales">4- Traitement de maladies avec des herbes médicinales</string>
+    <string name="_5_compagnes_de_distribution_de_livres_en_kabyles">5- Compagnes de distribution de livres en Kabyles</string>
+    <string name="iii_anthropologie_le_peuple_a_besoin_de_connaitre_ses_propres_personnages_historiques_ses_propres_guerriers_imnayen_qui_ont_d_fendu_son_territoire_la_kabylie_travers_les_ges"><![CDATA[III- Anthropologie : Le peuple a besoin de connaitre ses propres personnages historiques, ses propres guerriers (Imnayen) qui ont défendu son territoire (la Kabylie) à travers les âges]]></string>
+    <string name="_1_r_aliser_des_dessins_des_statues_de_nos_propre_guerriers_de_l_avant_et_d_apr_s_j_c_partir_des_st_les_retrouv_es_en_kabylie">1- Réaliser des dessins, des statues de nos propre guerriers de l’avant et d’après J.C à partir des stèles retrouvées en Kabylie.</string>
+    <string name="_2_th_oriser_la_structure_sociale_et_de_gestion_du_peuple_kabyle">2- Théoriser la structure sociale et de gestion du peuple Kabyle</string>
+    <string name="_3_r_unir_les_concepts_et_les_id_es_philosophiques_qui_d_finissent_l_id_ologie_kabyle">3- Réunir les concepts et les idées philosophiques qui définissent l’idéologie Kabyle</string>
+    <string name="_4_r_unir_expliquer_et_organiser_les_diff_rentes_f_tes_intrins_quement_kabyles_et_faire_la_relation_avec_l_environnement_la_nature_et_la_croyance_kabyle">4- Réunir, expliquer et organiser les différentes fêtes intrinsèquement Kabyles et faire la relation avec l’environnement, la nature et la croyance Kabyle.</string>
+    <string name="iv_protection_de_l_environnement_l_environnement_et_la_nature_en_kabylie_ont_toujours_t_au_centre_d_int_r_t_de_ces_citoyens"><![CDATA[IV- Protection de l’environnement : L’environnement et la nature en Kabylie ont toujours été au centre d’intérêt de ces citoyens]]></string>
+    <string name="_1_sensibilisation_sur_la_protection_de_la_faune_et_de_la_flore">1- Sensibilisation sur la protection de la faune et de la flore</string>
+    <string name="_2_r_am_nagement_des_espaces_et_des_points_d_eaux">2- Réaménagement des espaces et des points d’eaux</string>
+    <string name="_3_compagnes_de_nettoyage">3- Compagnes de nettoyage</string>
+    <string name="_4_faire_impliquer_les_citoyens_et_les_coliers_dans_l_op_ration_un_arbre_pour_le_climat"><![CDATA[4- Faire impliquer les citoyens et les écoliers dans l’opération : Un arbre pour le climat !]]></string>
+    <string name="tarwa_nda_lewnnas_se_veut_tre_une_auberge_pour_la_jeunesse_kabyle_afin_de_s_aimer_critiquer_son_pass_am_liorer_son_pr_sent_et_penser_son_avenir">Tarwa NDA Lewnnas se veut être une auberge pour la jeunesse Kabyle afin de s’aimer, critiquer son passé, améliorer son présent et penser son avenir</string>
+    <string name="_3_caricatures_relations_sociales_protection_de_l_environnement_et_autres_sujets_d_actualit"><![CDATA[3-⦁\tCaricatures : Relations sociales, protection de l’environnement et autres sujets d’actualité]]></string>
+    <string name="_2_dessin_guerriers_vie_d_antan_paysages_et_video_3d"><![CDATA[2- Dessin : Guerriers, vie d’antan, paysages et Video 3D...]]></string>
+    <string name="_1_cin_matographique_r_alisation_de_court_m_trages_documentaires_et_dessins_anim_es_instructifs_sur_notre_histoire_ancienne_nos_f_tes_mill_naires"><![CDATA[1- Cinématographique : Réalisation de court-métrages, documentaires et dessins animées instructifs sur notre histoire ancienne, nos fêtes millénaires]]></string>
+    <string name="viii_art_la_jeunesse_kabyle_rec_le_des_comp_tences_artistiques_normes"><![CDATA[VIII- Art : La jeunesse kabyle recèle des compétences artistiques énormes]]></string>
+    <string name="_5_neuralink_avantages_et_inconv_nients"><![CDATA[5- Neuralink : avantages et inconvénients]]></string>
+    <string name="_4_r_alit_virtuelle_et_r_alit_augment_e">4- Réalité virtuelle et Réalité augmentée</string>
+    <string name="_3_blockchain_et_cryptomonnaie">3-Blockchain et Cryptomonnaie</string>
+    <string name="_2_informatique">2- Informatique</string>
+    <string name="_1_espace_et_astronomie">1- Espace et astronomie</string>
+    <string name="vii_vulgarisation_scientifique_la_veille_scientifique"><![CDATA[VII- Vulgarisation scientifique : La veille scientifique]]></string>
+    <string name="_3_dispenser_des_cours_via_les_r_seaux_sociaux">3- Dispenser des cours via les réseaux sociaux</string>
+    <string name="_2_d_mocratiser_des_mots_pas_trop_utiliti_s_comme_les_noms_de_diff_rents_m_tiers_d_outils">2- Démocratiser des mots pas trop utilitiés comme les noms de différents métiers, d’outils…</string>
+    <string name="_1_influencer_la_soci_t_dans_le_but_de_changer_des_mots_arabes_par_d_autres_kabyles">1- Influencer la société dans le but de changer des mots arabes par d’autres Kabyles</string>
+    <string name="vi_la_langue_kabyle_le_travail_acad_mique_r_alis_sur_la_langue_kabyle_ces_trois_derni_res_d_cades_n_a_pas_r_ussi_d_passer_les_fronti_res_des_d_partements_de_la_langue"><![CDATA[VI- La langue Kabyle : Le travail académique réalisé sur la langue kabyle ces trois dernières décades n’a pas réussi à dépasser les frontières des départements de la langue]]></string>
+    <string name="_4_valeur_de_travail">5- Valeur de travail</string>
+    <string name="_4_valeur_de_la_libert">4- Valeur de la liberté</string>
+    <string name="_3_prise_de_d_cisions">3- Prise de décisions</string>
+    <string name="_2_la_capacit_de_rebondir">2- La capacité de rebondir</string>
+    <string name="_1_la_confiance_en_soi">1- La confiance en soi</string>
+    <string name="v_d_veloppement_personnel_nos_jeunes_ont_besoins_de_se_d_couvrir_tre_la_meilleure_version_de_soi_m_me"><![CDATA[V- Développement personnel : Nos jeunes ont besoins de se découvrir, être la meilleure version de soi-même]]></string>
+    <string name="tarwa_n_dda_lwennas">Tarwa n Dda Lwennas</string>
+    <string name="ay_er_nella_ay_er_ara_nili">Ayɣer nella? Ayɣer ara nili?</string>
+    <string name="_1_tamurt_taqvaylit_tes_edda_nnger_meqqren_ama_deg_uzruy_ines_ama_d_timetti_ne_d_idles_lad_a_di_tagara_n_unekcum_aberrani_n_usamar_ne_utrim">1- Tamurt taqvaylit tesɛedda nnger meqqren, ama deg uzruy-ines, ama d timetti neɣ d idles, ladɣa di tagara n unekcum aberrani , n usamar neɣ utrim.</string>
+    <string name="_2_taqvaylit_tu_al_d_tanufrant_immi_d_rran_lwelha_d_uxeddim_n_imusnawennne_ef_tmaz_a">2- Taqvaylit tuɣal d tanufrant, immi d-rran lwelha d uxeddim n imusnawennneɣ ɣef tmazɣa.</string>
+    <string name="_3_tisnaktiyin_ama_usamar_ne_tutrimin_d_imnekcem_aberrani_ttalasent_akk_di_t_arma_taqvaylit">3- Tisnaktiyin: ama , usamar neɣ tutrimin, d imnekcem aberrani ttalasent akk di tɣarma taqvaylit.</string>
+    <string name="ddwa_s_ihi_ad_d_n_eyyu">Ddwa-s ihi, ad d- nḥeyyu:</string>
+    <string name="_1_ta_essa_ines_di_tmetti">1- Taɣessa-ines di tmetti</string>
+    <string name="_2_tammusni_deg_uxeddim">2- Tammusni deg uxeddim</string>
+    <string name="_3_tigemmi_ines_tangawit">3- Tigemmi-ines tangawit</string>
+    <string name="_4_asdukkel_n_yal_a_valu_amazray_id_yellan_ef_tmurt_taqvaylit_di_yal_tallit">4- Asdukkel n yal aɣvalu amazray id-yellan ɣef tmurt taqvaylit di yal tallit.</string>
+    <string name="_5_ad_d_nessen_eq_tutlayt_nne_a_ar_n_tuddar_nne_unu_en_n_tala_t_d_tira_n_lejdud_nne">5- Ad d-nessenṭeq tutlayt-nneɣ, aẓar n tuddar-nneɣ, unuɣen n talaɣt d tira n lejdud-nneɣ.</string>
+    <string name="_6_ad_d_ne_yu_imanayen_nne_d_imna_en_imeqqranen">6- Ad d-neḥyu imanayen-nneɣ, d imnaɣen imeqqranen</string>
+    <string name="_7_amezruy_f_tgemmi_taqvaylit_tu_al_er_rrif_tu_al_cc_e_kan_tettwam_el">7- Amezruy f tgemmi taqvaylit, tuɣal ɣer rrif, tuɣal ccḍeḥ kan, tettwamḍel.</string>
+    <string name="ef_waya_tarwa_n_dda_lwennas_tella_d_iwakken_ad_d_fe_ta_arma_taqvaylit_deg_umezruy_idles_afiman_tukkest_tussnant_tala_t_d_tira_tiqvurin_tarwa_n_dda_n_lwennas_tev_a_di_en_ad_d_teslal_tussna_taqvaylit_kabylologie_ad_d_nalles_amezruy_s_wudem_ussnan_s_unadi_ussnan_s_u_var_d_usile_n_tlawin_d_yergazen_nne_i_wakken_ad_d_nevnu_tasnakta_taqvaylit_i_t_arma_nne">ꙋef waya, tarwa n Dda Lwennas, tella-d iwakken ad d-feḍ taɣarma taqvaylit deg umezruy, idles afiman, tukkest tussnant, talaɣt d tira tiqvurin. Tarwa n Dda n Lwennas, tevɣa diɣen ad d-teslal tussna taqvaylit (Kabylologie), ad d-nalles amezruy s wudem ussnan, s unadi ussnan, s uɣvar d usileɣ n tlawin d yergazen-nneɣ i wakken ad d-nevnu tasnakta taqvaylit i tɣarma-nneɣ</string>
+    <string name="a_ric_1ur_anadi_ussnan">Aḥric 1ur: Anadi Ussnan</string>
+    <string name="_1_amezruy">1- Amezruy</string>
+    <string name="_2_tassnalsa_tadelsant_tanmettit">2- Tassnalsa tadelsant tanmettit</string>
+    <string name="_3_tasle_t_tame_layt_tum_int_n_t_uri_taqvaylit_ticra_tala_t_agertil_ta_akna">3- Tasleḍt tameẓlayt tumḍint n tẓuri taqvaylit (ticraḍ, talaɣt, agertil-taṛakna)</string>
+    <string name="_4_taklut_tumlilt">4- Taklut tumlilt</string>
+    <string name="_5_tadelsa_tamatut_isefra_inzan_timucuha_tinqisin_atg">5- Tadelsa tamatut (isefra, inzan, timucuha, tinqisin...atg)</string>
+    <string name="a_ric_wis_ssin_asile">Aḥric wis ssin: Asileɣ</string>
+    <string name="_1_mmkul_ti_mert_di_tmurt_taqvaylit_ur_s_a_as_n_tuffirin_d_lva_nat">1- Mmkul tiɣmert di tmurt taqvaylit ɣur-s aṭas n tuffirin d lvaḍnat.</string>
+    <string name="_2_asile_agi_ad_yili_i_kra_kan_n_yinelmaden_leqdic_ad_yu_al_ad_yim_ur_iwakken_ad_d_i_az_akk_timna_in_n_tmurt_taqvaylit">2- Asileɣ-agi ad yili i kra kan n yinelmaden, leqdic ad yuɣal ad yimɣur, iwakken ad d-iḥaz akk timnaḍin n tmurt taqvaylit.</string>
+    <string name="a_ric_wis_kra_3_tuffi_in">Aḥric wis kraḍ 3: Tuffiɣin</string>
+    <string name="_1_a_e_a_n_l_internet">1- Aẓeṭṭa n l’internet</string>
+
+    <string name="ahil">Ahil:</string>
+    <string name="i_amezruy_ad_d_nales_tira_n_umezruy_n_tmurt_taqvaylit_si_zmman_n_zik_ad_d_nner_lewhi_er">I- Amezruy: ad d-nales tira n umezruy n tmurt taqvaylit si zmman n zik, ad d-nner lewhi ɣer :</string>
+    <string name="_1_tira_tiqvurin_n_lejdud">1- tira tiqvurin n lejdud</string>
+    <string name="_2_ad_d_nezmek_ti_kayin_d_temsal_id_kan_wat_zzik_ac_al_n_tsutwin_aya">2- ad d-nezmek tiḥkayin d temsal id ḥkan wat zzik acḥal n tsutwin aya.</string>
+    <string name="_3_ad_d_nessegzi_inzan_timucuha_d_yisefra_iqvuren">3- Ad d-nessegzi inzan, timucuha d yisefra iqvuren.</string>
+    <string name="ii_tadelsa_idles_afexxar_d_u_e_a_n_leqvayel_uren_d_unu_en_d_iseknan_inzegganen_yes_an_a_as_inumak">II- Tadelsa- Idles: afexxar d uẓeṭṭa n leqvayel ččuren d unuɣen d iseknan inzegganen yesɛan aṭas inumak:</string>
+    <string name="_1_amazray_ra_inig_la">1- amazray ( ṭraḍ, inig, laẓ ...)</string>
+    <string name="_2_tussna_tamentilt_n_umgun_a_anen">2- tussna (tamentilt n umgun, aṭṭanen...)</string>
+    <string name="_3_tanamunt_ph_nom_ne_cosmique_tallust_n_waggur_d_yitij_itran_teksef">3- tanamunt “ phénomène cosmique” ( tallust n waggur d yitij, itran teksef ....</string>
+    <string name="_4_asejji_seg_wa_anen_s_yim_an">4- Asejji seg waṭṭanen s yimɣan.</string>
+    <string name="_5_azday_d_uzuzzer_n_yidlisen_s_teqvaylit">5- Azday, d uzuzzer n yidlisen s teqvaylit ...</string>
+    <string name="iii_tasnalsa_agdud_ye_wa_ad_yissin_iwudam_n_umezruy_is_ad_yissin_imnayen_i_i_udden_tamurt_is_di_yal_tallit">III- Tasnalsa : agdud yeḥwaǧ ad yissin iwudam n umezruy-is ad yissin imnayen i iḥudden tamurt-is di yal tallit.</string>
+    <string name="_1_asuffe_n_wunu_en_isevdaden_n_yimnayen_nne_ama_uqvel_ama_seld_tallalit_n_sidna_isa_aya_s_isevdad_i_d_ufan_deg_tmurt_taqvaylit">1- Asuffeɣ n wunuɣen , isevdaden n yimnayen-nneɣ ama uqvel ama seld tallalit n Sidna Ɛisa aya s isevdad i d ufan deg tmurt taqvaylit.</string>
+    <string name="_2_asdukkel_ne_anegraw_d_usuddes_n_yal_tame_ra_ye_nan_taqvaylit_ad_d_naf_imir_assa_yellan_gar_as_d_twenna_h_d_ugama_d_wayen_s_wayes_ttamnen_leqvayel">2- Asdukkel neɣ anegraw, d usuddes n yal tameɣra yeɛnan taqvaylit, ad d-naf imir assaɣ yellan gar-as d twennaḍh, d ugama d wayen s wayes ttamnen leqvayel.</string>
+    <string name="iv_ase_viver_ef_twenna_t_si_zikk_ase_viver_ef_twenna_t_d_tezdeg_akken_id_yekkr_yi_s_ugdud_aqvayli">IV- Aseḥviver ɣef twennaḍt : Si zikk, aseḥviver ɣef twennaḍt d tezdeg akken id-yekkr yi-s ugdud aqvayli.</string>
+    <string name="_1_assefrey_ne_asemter_ef_u_arev_n_yi_ersiwen_d_yim_an">1- Assefrey neɣ asemter ɣef uḥarev n yiɣersiwen d yimɣan.</string>
+    <string name="_2_a_awed_d_uq_ad_n_imekkwan_d_tliwa_n_waman">2- Aɛawed d uqɛad n imekkwan, d tliwa n waman.</string>
+    <string name="_3_assihel_n_wa_as_n_twiziwin_n_ussizdeg">3- Assihel n waṭas n twiziwin n ussizdeg.</string>
+    <string name="_4_yal_amdan_yal_anelmad_ad_ittekki_di_tamhelt_yiwen_n_useklu_i_unezwu">4- Yal amdan, yal anelmad ad ittekki di tamhelt: yiwen n useklu i unezwu</string>
+    <string name="v_asnerni_n_yiman_ilme_yen_wa_en_ad_afen_iman_nsen_ad_garzen_garasen_d_yiman_nsen">V- Asnerni n yiman : Ilmeẓyen ḥwaǧen ad afen iman-nsen, ad garzen garasen d yiman-nsen:</string>
+    <string name="_1_ad_tes_u_lettkal_deg_yiman_ik">1- Ad tesɛuḍ lettkal deg yiman-ik</string>
+    <string name="_2_ad_tizmire_ad_dekkre_i_tikelt_nni_en">2- Ad tizmireḍ ad dekkreḍ i tikelt nniḍen</string>
+    <string name="_3_ad_te_fe_di_rray_ik">3- Ad teṭṭfeḍ di rray-ik</string>
+    <string name="_4_azal_n_tlelli">4- Azal n tlelli</string>
+    <string name="_5_azal_n_uxeddim">5- Azal n uxeddim</string>
+    <string name="vi_tutlayt_taqvaylit_leqdic_asdawan_i_yettwaxedmen_ef_teqvaylit_di_kra_3_n_amrawseggas_yezrin_ur_d_yelli_kra_unerni_anagar_ayen_yettwaqedcen_deg_ugezdu_n_tutlayt">VI- Tutlayt taqvaylit : Leqdic asdawan i yettwaxedmen ɣef teqvaylit di kraḍ (3) n amrawseggas yezrin, , ur d-yelli kra unerni, anagar ayen yettwaqedcen deg ugezdu n tutlayt</string>
+    <string name="_1_aveddel_d_useqdec_n_wawalen_nessemras_s_ta_ravt_s_wid_ne_teqvaylit_nne">1- Aveddel d useqdec n wawalen nessemras s taɛravt s wid ne teqvaylit-nneɣ</string>
+    <string name="_2_asegdu_n_wawalen_ur_nsseqdac_ara_s_wa_as_am_yismawen_n_twuri_n_wallalen">2- Asegdu n wawalen ur nsseqdac ara s waṭas am yismawen n twuri, n wallalen …</string>
+    <string name="_3_azzuzer_n_temsirin_s_teqvaylit_deg_u_e_a_n_tmetti">3- Azzuzer n temsirin s teqvaylit deg uẓeṭṭa n tmetti</string>
+    <string name="vii_asnezwi_n_tusna_ateddu_d_tussna">VII- Asnezwi n tusna : Ateddu d tussna</string>
+    <string name="_1_allun_d_tasnallunt">1- Allun d Tasnallunt</string>
+    <string name="_2_tasenselkimt">2- Tasenselkimt</string>
+
+    <string name="_4_asseqdec_d_usemres_n_wallalen_itiknuligiyen_d_um_inen">4- Asseqdec d usemres n wallalen itiknuligiyen d umḍinen.</string>
+    <string name="_5_neuralink_gar_ibu_ar_d_u_ilif">5- Neuralink : gar ibuɣar d uɣilif</string>
+    <string name="viii_ta_uri_ilme_yen_iqvayliyin_s_an_a_as_n_twezza_tina_uranin_labe_da">VIII- Taẓuri : Ilmeẓẓyen iqvayliyin sɛan aṭas n twezza tinaẓuranin labeɛda:</string>
+    <string name="_1_asarag_asufe_n_isura_ifetrawen_unu_en_yettembiwilen_d_isental_ara_islemden_tarwa_nne_ef_umezruy_idels_nne">1- Asarag : asufeɣ n isura, ifetrawen, unuɣen yettembiwilen, d isental ara islemden tarwa-nneɣ ɣef umezruy, idels-nneɣ.</string>
+    <string name="_2_unu_en_imna_en_tudert_n_zik_ime_ri_video_3d">2- Unuɣen : imnaɣen, tudert n zik, Imeẓri, VIDEO 3D</string>
+    <string name="_3_af_ul_isental_ad_ilin_cudden_er_tmetti_ase_viver_ef_twena_t_d_isental_nni_en_a_arun_imir_a">3-Afɣul : isental ad ilin cudden ɣer tmetti, aseḥviver ɣef twenaḍt d isental nniḍen aḍarun imir-a.</string>
+    <string name="tarwa_n_dda_lwennas_teb_a_ad_tili_d_tasdarit_i_ilme_yen_nne_iqvayliyen_iwakken_ad_mmye_malen_ad_sqerdcen_izri_nsen_ad_ggerzen_ass_a_nsen_wa_xemmen_ef_uzekka_nsen">Tarwa n Dda Lwennas, tebɣa ad tili d tasdarit i ilmeẓẓyen-nneɣ iqvayliyen, iwakken ad mmyeḥmalen, ad sqerdcen izri-nsen, ad ggerzen ass-a- nsen, wa xemmen ɣef uzekka-nsen.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="sendamezruy">SendAmezruy</string>
+    <string name="im_an">Imɣan</string>
+    <string name="cegge">ceggeɛ</string>
+    <string name="e_ami_an_inek_m_yeldi">Eǧǧ amiḍan inek(m) yeldi</string>
+    <string name="tettu_awal_uffir">tettuḍ awal uffir ? 😱</string>
+    <string name="i_egalen">Iɛegalen</string>
+    <string name="kra_n_wakud">Kra N Wakud...</string>
+    <string name="ur_tezmi_e_ara">Ur tezmiṛeḍ-ara</string>
+    <string name="aqla_an_xeddem_akk_ayen_wumi_nezmer_iw_akken_ad_ne_awe_er_ugemu_i_tessaramem">Aqlaɣ an xeddem akk ayen wumi nezmer iw akken ad neṣṣaweḍ ɣer ugemuḍ i tessaramem...</string>
+    <string name="dacu_i_nethagi">Dacu i nethagi?</string>
+    <string name="inzi_na">Inzi-naɣ</string>
+    <string name="sedu_urrar">sedu urrar</string>
+    <string name="todo">TODO</string>
+    <string name="ih">Ih</string>
+    <string name="uhu">UHU</string>
+    <string name="ll">||</string>
+    <string name="n_wawalen">N wawalen</string>
+    <string name="internet_zayet">Internet Zayet...</string>
+    <string name="i_bula_d_wid_id_n_sukkes_seg_tmerza_akked_tezrawin_deg_annar_deg_temurt_n_leqbayel">Iɣbula d wid id-n-sukkes seg tmerza akked tezrawin deg ʷannar deg temurt n Leqbayel</string>
+    <string name="ad_issine">Ad issineɣ</string>
+</resources>

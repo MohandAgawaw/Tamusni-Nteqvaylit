@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="#00DFDFDF">
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#05FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/recycstyl">
+
+        <LinearLayout
+            android:id="@+id/amenzu4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/isfraname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="19sp">
+
+            </TextView>
+
+            <ImageView
+
+                android:id="@+id/tarwa"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="78dp"
+                android:contentDescription="@string/todo">
+
+            </ImageView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

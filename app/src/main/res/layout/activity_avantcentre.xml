@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yyes"
+    tools:context=".Avantcentre">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/imglogo"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+
+            android:contentDescription="@string/im">
+
+        </ImageView>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tamusni"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/et_bbg"
+            android:text="@string/Centre_Btn1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/timucuha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="27sp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/Centre_Btn4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/Isefra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/centre_Btn6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/tiwelfin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/centre_Btn5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+
+        <Button
+            android:id="@+id/amawal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/Centre_Btn2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/urar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bbg"
+            android:gravity="center"
+            android:text="@string/Centre_Btn3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/grp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/et_bbg"
+            android:minHeight="48dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</RelativeLayout>

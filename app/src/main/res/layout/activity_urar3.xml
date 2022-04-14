@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".urar3"
+    android:background="@drawable/fond2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/finir_les_phrases_suivante"
+        android:textColor="#E45B1B"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imglogo"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quizz"
+        android:layout_centerHorizontal="true"
+        android:textColor="#A6FF00"
+        android:layout_marginBottom="42dp"
+        android:text="Highscore: 0"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button_start_quizz"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_game_tree"
+        android:text="@string/sedu_urrar"
+        android:textColor="#ffff" />
+    <TextView
+        android:id="@+id/lvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#A6FF00"
+        android:layout_above="@id/button_start_quizz"
+        android:layout_marginBottom="10dp"
+        android:text="lvl: 1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/lvlpass"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/button_start_quizz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_game_tree"
+        android:text="passer lvl"
+        android:textColor="#ffff">
+
+    </Button>
+
+    <Spinner
+
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_start_quizz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

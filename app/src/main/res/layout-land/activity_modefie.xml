@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modefie"
+    android:gravity="center"
+    android:background="@drawable/yess">
+    <TextView
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/idemail"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/idname"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:id="@+id/idprename"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+
+        android:background="@drawable/cutom_button"
+        android:layout_marginTop="5dp"
+        android:id="@+id/saved"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+
+        android:text="✅" />
+
+    <Button
+        android:background="@drawable/btn_off"
+        android:layout_marginTop="5dp"
+        android:id="@+id/exit"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+
+        android:text="❌" />
+</LinearLayout>

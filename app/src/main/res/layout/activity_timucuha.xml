@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timucuha"
+    android:background="@drawable/jptn">
+    <ImageView
+
+        android:layout_width="130dp"
+        android:layout_height="135dp"
+        android:id="@+id/imglogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ImageView>
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressBar2"
+        style="@style/SpinKitView.Large.FadingCircle"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="128dp"
+        app:SpinKit_Color="#FFFFFF" />
+    <LinearLayout
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/post1"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post2"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/tw"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/post3"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/aww"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post4"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/ty"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post5"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="Taseɛdit d Cciṭan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/post6"
+
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/l_ula_d_seb_a_n_tulas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post7"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/ah_eddad_n_lqalus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post8"
+
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myt"
+            android:text="@string/agellid_afer_as"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post9"
+
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/myt"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>

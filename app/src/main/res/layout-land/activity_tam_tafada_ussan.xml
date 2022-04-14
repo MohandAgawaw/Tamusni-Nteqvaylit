@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yess"
+    tools:context=".tam_tafada_ussan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/ussan_n_imalas"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Dimanche : acer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Lundi : arim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Mardi : aram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Mercredi : ahad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Jeudi : amhad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Vendredi : sem "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Samedi : sed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imglogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+        </ImageView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

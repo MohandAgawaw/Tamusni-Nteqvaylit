@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yess"
+    tools:ignore="LabelFor"
+   >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:lottie_rawRes="@raw/logindis"
+            app:lottie_autoPlay="true"
+            android:elevation="5dp">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg"
+            android:ems="100"
+            android:gravity="center"
+            android:hint="@string/MDp"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+
+        <CheckBox
+            android:id="@+id/chek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/e_ami_an_inek_m_yeldi">
+
+        </CheckBox>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/BTN_ar"
+            android:layout_width="154dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/et_bbg"
+            android:text="@string/login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/tettu_awal_uffir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <Button
+                android:id="@+id/btnih"
+                android:layout_marginStart="5dp"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/et_bbg"
+                android:text="@string/ih"
+                android:layout_width="50dp"
+                android:layout_height="30dp">
+
+            </Button>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/pBr"
+            android:layout_width="351dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF" />
+
+    </LinearLayout>
+</RelativeLayout>
