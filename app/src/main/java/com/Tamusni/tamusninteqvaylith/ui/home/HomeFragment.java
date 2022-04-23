@@ -224,6 +224,7 @@ String genregar = "Amalay"
                         String Email = "Tirwat : "+ dataSnapshot.child("email").getValue().toString();
                         String Prenom = " " + dataSnapshot.child("prenom").getValue().toString();
                         String genre = dataSnapshot.child("gender").getValue().toString();
+                        String imagee = dataSnapshot.child("image").getValue().toString();
 
 
                         NomeTV.setText(Name);
@@ -239,18 +240,24 @@ String genregar = "Amalay"
                             NomeTV.setTextColor(Color.parseColor("#ff009d"));
                             PrenomTV.setTextColor(Color.parseColor("#ff009d"));
                         }
-                        if (dataSnapshot.hasChild("image")) {
-                            String image = dataSnapshot.child("image").getValue().toString();
+                        if(!imagee.equals("null")){
 
-                            try {
-                                Picasso.get().load(image).into(ProfileImage);
-                                progressBar2.setVisibility(View.INVISIBLE);
-                            } catch (Exception e) {
+                            if (dataSnapshot.hasChild("image")) {
+                                String image = dataSnapshot.child("image").getValue().toString();
 
-                                Picasso.get().load(R.drawable.user).into(ProfileImage);
-                                progressBar2.setVisibility(View.INVISIBLE);
+                                try {
+                                    Picasso.get().load(image).into(ProfileImage);
+                                    progressBar2.setVisibility(View.INVISIBLE);
+                                } catch (Exception e) {
 
+                                    Picasso.get().load(R.drawable.user).into(ProfileImage);
+                                    progressBar2.setVisibility(View.INVISIBLE);
+
+                                }
                             }
+
+                        }else {
+                            progressBar2.setVisibility(View.INVISIBLE);
                         }
 
                     }

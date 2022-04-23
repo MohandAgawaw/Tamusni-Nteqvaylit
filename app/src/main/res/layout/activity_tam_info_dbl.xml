@@ -23,8 +23,8 @@
 
         <LinearLayout
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
@@ -65,6 +65,7 @@
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
 
+
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
                 android:id="@+id/textViewc"
@@ -75,11 +76,13 @@
 
             </TextView>
             <TextView
+                android:layout_gravity="center"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:id="@+id/textdt"
-                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginBottom="5dp">

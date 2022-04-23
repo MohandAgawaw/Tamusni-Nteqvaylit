@@ -74,10 +74,11 @@ public class listetype extends RecyclerView.Adapter<listetype.ViewHolder>{
             holder.textView1.setTextColor(Color.parseColor("#ff009d"));
         }
 
-        databaseReferencee = FirebaseDatabase.getInstance().getReference("student");
+        databaseReferencee = FirebaseDatabase.getInstance().getReference(firebaseAuth.getCurrentUser().getUid());
         holder.msgimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                     HashMap<String, Object> hashMap = new HashMap<>();
                     hashMap.put("msg", "" + 1);
                     databaseReferencee.child(firebaseAuth.getCurrentUser().getUid()).updateChildren(hashMap);

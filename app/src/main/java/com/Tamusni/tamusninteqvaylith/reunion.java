@@ -27,21 +27,24 @@ EditText editText;
         btn2 = findViewById(R.id.cree);
         editText = findViewById(R.id.cnfname);
 
-        URL url;
-        try {
-            url = new URL("https://meet.jit.si");
-            JitsiMeetConferenceOptions defoptn=
-                    new JitsiMeetConferenceOptions.Builder().setServerURL(url).build();
-            JitsiMeet.setDefaultConferenceOptions(defoptn);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder().setFeatureFlag("invite.enabled", false).setFeatureFlag("meeting-password.enabled", true).setRoom(editText.getText().toString())
-                        .build();
+                JitsiMeetConferenceOptions options = null;
+                try {
+                    options = new JitsiMeetConferenceOptions.Builder()
+                            .setServerURL(new URL("https://meet.jit.si"))
+                            .setRoom(editText.getText().toString())
+                            .setAudioMuted(false)
+                            .setVideoMuted(false)
+                            .setAudioOnly(false)
+                            .setConfigOverride("requireDisplayName", true)
+                            .build();
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
+
                 JitsiMeetActivity.launch(reunion.this,options);
                 finish();
             }

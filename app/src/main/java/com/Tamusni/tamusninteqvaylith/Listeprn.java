@@ -58,8 +58,6 @@ int in;
         messagesListt = new ArrayList<>();
         lottieAnimationView = findViewById(R.id.ltrid);
         linearLayout.setVisibility(View.INVISIBLE);
-        upinfo(in);
-
 
         close.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -176,7 +174,7 @@ int in;
                 ClearAll();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()){
                     listeget tiwelfinee = new listeget();
-                    String st = (snapshot.child("vib").getValue().toString());
+                    String st = ""+ (snapshot.child("vib").getValue().toString());
 
                     if(st.equals("1")){
                         tiwelfinee.setPostid(snapshot.child("userid").getValue().toString());

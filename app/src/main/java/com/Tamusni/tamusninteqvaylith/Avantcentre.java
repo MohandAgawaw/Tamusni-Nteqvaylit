@@ -184,8 +184,7 @@ public class Avantcentre extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(),Chats.class));
             finish();
         }else if (id == R.id.item2_1){
-            startActivity(new Intent(getApplicationContext(),Listeprn.class));
-            finish();
+            Toast.makeText(getApplicationContext(),"Imir Agi Ur Tezmired Ara...",Toast.LENGTH_LONG).show();
         }else if (id == R.id.item3){
             startActivity(new Intent(getApplicationContext(),aide.class));
             finish();

@@ -42,6 +42,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.parse.Parse;
 import com.parse.ParseInstallation;
 
+import java.util.HashMap;
+
 import worker8.com.github.radiogroupplus.RadioGroupPlus;
 
 
@@ -77,15 +79,15 @@ public class Inscription extends AppCompatActivity {
         storageReference = Store.getReference();
         ParseInstallation.getCurrentInstallation().saveInBackground();
         Nome = findViewById(R.id.editText4);
-      Prenom = findViewById(R.id.editText5);
+        Prenom = findViewById(R.id.editText5);
         Myref = FirebaseDatabase.getInstance().getReference();
-      txt_EMAIL = findViewById(R.id.editText6);
-      Pass = findViewById(R.id.editText10);
-      Passs = findViewById(R.id.editText11);
-      pbr1 =  findViewById(R.id.pBr1);
-      Inscrir = findViewById(R.id.inscrir);
-      AmalaY = findViewById(R.id.radioButton);
-      Unthi =  findViewById(R.id.radioButton2);
+        txt_EMAIL = findViewById(R.id.editText6);
+        Pass = findViewById(R.id.editText10);
+        Passs = findViewById(R.id.editText11);
+        pbr1 =  findViewById(R.id.pBr1);
+        Inscrir = findViewById(R.id.inscrir);
+        AmalaY = findViewById(R.id.radioButton);
+        Unthi =  findViewById(R.id.radioButton2);
         DatabaseReference Mdriii = FirebaseDatabase.getInstance().getReference("awalndiri");
         datebaseReference = FirebaseDatabase.getInstance().getReference("student");
         firebaseAuth =FirebaseAuth.getInstance();
@@ -93,27 +95,7 @@ public class Inscription extends AppCompatActivity {
         radioButton = findViewById(radioId);
 
 
-        Query query = Myref.child("inscription");
-        query.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                for (DataSnapshot snapshot : dataSnapshot.getChildren()){
-                     titell = "" + dataSnapshot.child("link").getValue().toString();
-
-
-
-                }
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-
         pbr1.setVisibility(View.INVISIBLE);
-
         wbv = findViewById(R.id.Webviewww);
         WebSettings webSettings = wbv.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -229,34 +211,29 @@ public class Inscription extends AppCompatActivity {
                                         @Override
                                         public void onComplete(@NonNull Task<AuthResult> task) {
                                             if (task.isSuccessful()) {
-
                                                 FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
                                                 String userid = firebaseUser.getUid();
-
                                                 pbr1.setVisibility(View.VISIBLE);
                                                 pbr1.setProgress(100);
-                                                student information = new student(
-
-                                                        img, Nom, prenom, Email, Password, gender, licked, visibilite, userid
-
-                                                );
-
+                                                HashMap<String, Object> hashMap = new HashMap<>();
+                                                hashMap.put("nom", "" + Nom);
+                                                hashMap.put("prenom", "" + prenom);
+                                                hashMap.put("email", "" + Email);
+                                                hashMap.put("password", "" + Password);
+                                                hashMap.put("gender", "" + gender);
+                                                hashMap.put("like", "" + licked);
+                                                hashMap.put("vib", "" + visibilite);
+                                                hashMap.put("userid", "" + userid);
+                                                hashMap.put("image", "" + img);
+                                                hashMap.put("msg", "" +0);
                                                 FirebaseDatabase.getInstance().getReference("student").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                        .setValue(information).addOnCompleteListener(new OnCompleteListener<Void>() {
-
-
+                                                        .setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                     @SuppressLint("ResourceType")
                                                     @Override
                                                     public void onComplete(@NonNull Task<Void> task) {
-
-
                                                         Toast.makeText(Inscription.this, "Tettwajṛeḍ akken iwata...", Toast.LENGTH_SHORT).show();
                                                         startActivity(new Intent(getApplicationContext(), Login.class));
-
                                                         finish();
-
-
-
                                                     }
                                                 });
                                             } else {

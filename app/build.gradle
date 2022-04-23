@@ -4,20 +4,24 @@ apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 
 
 android {
+
+   
     compileSdkVersion 31
     defaultConfig {
         applicationId "com.Tamusni.tamusninteqvaylith"
         minSdkVersion 23
         multiDexEnabled true
         targetSdkVersion 31
-        versionCode 1
+        versionCode 6
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
     buildFeatures {
@@ -33,7 +37,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '30.0.2'
 
 }
 
@@ -51,50 +54,50 @@ configurations {
 }
 dependencies {
     implementation ('org.jitsi.react:jitsi-meet-sdk:4.1.0') { transitive = true }
-    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'com.onesignal:OneSignal:4.7.1'
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'com.google.firebase:firebase-inappmessaging-display:19.0.3'
-    implementation 'androidx.navigation:navigation-fragment:2.4.0'
-    implementation 'androidx.navigation:navigation-ui:2.4.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:20.1.2'
+    implementation 'androidx.navigation:navigation-fragment:2.4.2'
+    implementation 'androidx.navigation:navigation-ui:2.4.2'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.firebase:firebase-core:20.1.2'
 
     //Google material design
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.5.0'
     implementation 'com.google.android.material:material:1.5.0'
     implementation'androidx.palette:palette:1.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'gun0912.ted:tedpermission:2.2.2'
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.github.bumptech.glide:glide:4.13.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation "androidx.cardview:cardview:1.0.0"
     //noinspection GradleCompatible
-    implementation 'com.android.support:design:1.0.2'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.firebase:firebase-database:16.0.4'
-    implementation 'com.google.firebase:firebase-storage:16.0.4'
-    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.google.firebase:firebase-database:20.0.4'
+    implementation 'com.google.firebase:firebase-storage:20.0.1'
+    implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'de.hdodenhof:circleimageview:2.2.0'
-    implementation 'com.google.firebase:firebase-messaging:23.0.0'
-    implementation 'com.google.firebase:firebase-messaging'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
-    testImplementation 'junit:junit:4.12'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.2'
+    implementation 'com.google.firebase:firebase-messaging:23.0.2'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
+    testImplementation 'junit:junit:4.13.2'
     //noinspection GradleCompatible
-    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:design:28.0.0'
     //noinspection GradleCompatible
-    implementation 'com.android.support:recyclerview-v7:26.1.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.github.worker8:radiogroupplus:1.0.1'
     implementation files('libs/activation.jar')
     implementation files('libs/additionnal.jar')
@@ -105,7 +108,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation "androidx.constraintlayout:constraintlayout:2.1.3"
     implementation 'com.parse:parse-android:1.17.3'
-    def lottieVersion = "3.4.0"
+    def lottieVersion = '5.0.3'
     implementation "com.airbnb.android:lottie:$lottieVersion"
     dependencies {
 
@@ -138,4 +141,5 @@ dependencies {
         implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha03'
 
     }
+
 }

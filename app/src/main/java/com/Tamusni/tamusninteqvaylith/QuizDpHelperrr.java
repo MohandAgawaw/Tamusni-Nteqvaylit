@@ -74,7 +74,7 @@ public class QuizDpHelperrr extends SQLiteOpenHelper {
         addQuestionnn(q13);
         Questionnn q14 = new Questionnn("Isem-is","zevra", "Uzal", "Edraɛ", "Zevra","Abarwaq", 3 , Questionnn.LVL_3_3);
         addQuestionnn(q14);
-        Questionnn q15 = new Questionnn("Isem-is","tagrast", "aḍelaɛ", "Taɣṛast n ḥelfa", "aqecwal","aceṛṛaɛ", 2 , Questionnn.LVL_3_3);
+        Questionnn q15 = new Questionnn("Isem-is","tagrast", "aḍelaɛ", "Taɣṛast", "aqecwal","aceṛṛaɛ", 2 , Questionnn.LVL_3_3);
         addQuestionnn(q15);
         Questionnn q16 = new Questionnn("Isem-is","abz", "Tisemsemt", "abzim", "Taɛeṣṣabt","Talullit", 2 , Questionnn.LVL_4_4);
         addQuestionnn(q16);

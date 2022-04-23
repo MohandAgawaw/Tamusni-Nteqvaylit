@@ -46,6 +46,7 @@ public class tam_tirra_uzzeta extends AppCompatActivity {
                     tam_info tiwelfinee = new tam_info();
                     tiwelfinee.setUrlmimg(snapshot.child("test").getValue().toString());
                     tiwelfinee.setDate(snapshot.child("name").getValue().toString());
+                    tiwelfinee.setDescription(snapshot.child("manee").getValue().toString());
                     messagesList.add(tiwelfinee);
                 }
 
